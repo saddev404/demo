@@ -1,0 +1,36 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 99,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 510,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "lm80fhtf2i",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "gtem9hpove",
+      "widgetName": "Canvas_CommercialSummary"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "originalBottomRow": 99,
+  "originalTopRow": 48,
+  "parentId": "y2b5hy5zhq",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 48,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "lm80fhtf2i",
+  "widgetName": "cnt_CommercialSummaryCard"
+}

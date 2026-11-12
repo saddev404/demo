@@ -1,0 +1,53 @@
+{
+  "allowedFileTypes": "{{ [\".pdf\", \".doc\", \".docx\", \".msg\", \".eml\", \".jpg\", \".jpeg\", \".png\", \".xls\", \".xlsx\", \".csv\"] }}",
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 29.15,
+  "boxShadow": "none",
+  "buttonColor": "#FFFFFF",
+  "dynamicBindingPathList": [
+    {
+      "key": "allowedFileTypes"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ln2iik43aa",
+  "label": "{{ js_NFAController.getMandatorySupportingLabel(\"paymentTerms\") }}",
+  "leftColumn": 43,
+  "maxFileSize": 25,
+  "maxNumFiles": "5",
+  "minWidth": 120,
+  "mobileBottomRow": 42.4,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 38.3,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 7.5,
+  "parentId": "vcuhxyvbxn",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "selectedFiles": [],
+  "topRow": 25.05,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "kl7p7cdt6i",
+  "widgetName": "NFA_MANDATORY_INFORMATION__FS3"
+}

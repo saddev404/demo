@@ -1,0 +1,17 @@
+{
+  "bottomRow": 11,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 12,
+  "originalTopRow": 7,
+  "parentId": "z3b3vnjup5",
+  "rightColumn": 62,
+  "text": "<span style=\"font-size: 13px; color: #64748b;\">The consistency check audit has passed. Please specify how this requisition should proceed:</span>",
+  "topRow": 7,
+  "type": "TEXT_WIDGET",
+  "widgetId": "b2a2od3gfg",
+  "widgetName": "txt_AcceptRouteDesc"
+}

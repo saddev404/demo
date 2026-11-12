@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultModel": "{\n  \"checked\": true,\n  \"size\": {\n    \"width\": 56,\n    \"height\": 32\n  },\n  \"activeLabel\": \"Active PRs\",\n  \"inactiveLabel\": \"All PRs\"\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "ed4bbplylj",
+  "leftColumn": 58,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 83,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 53,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 2,
+  "parentColumnSpace": 29.828125,
+  "parentId": "hoi6w1qqtt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "html,\nbody,\n#root {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  min-height: 100%;\n  overflow: hidden; /* Suppress native scrollbars; Appsmith Auto-Height will handle the resizing */\n  background: transparent;\n}\n\n.toggle-adjustable-container {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap; /* Allows label to wrap below the toggle */\n  width: 100%;\n  padding: 0.5rem 0;\n  background: transparent;\n  box-sizing: border-box;\n  gap: 1rem; /* Maintains spacing even if wrapped */\n}\n\n.adjustable-toggle-track {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n  background: transparent;\n  flex-shrink: 0;\n}\n\n.adjustable-toggle-thumb {\n  position: absolute;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);\n  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.adjustable-toggle-label {\n  font-size: 1.125rem;\n  color: #1e293b;\n  font-family: system-ui, sans-serif;\n  font-weight: 500;\n  background: none;\n  display: inline-block;\n  line-height: 1.4;\n  word-break: break-word; /* Ensure long words wrap if necessary */\n}\n\n.adjustable-toggle-label.hide {\n  display: none !important;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nconst DEFAULT_SIZE = {\n  width: 56,\n  height: 32\n};\nfunction AdjustableToggle() {\n  // Set default checked to true if not in the model\n  const [isChecked, setIsChecked] = React.useState(typeof appsmith.model?.checked === 'boolean' ? appsmith.model.checked : true);\n  const [size, setSize] = React.useState(appsmith.model?.size || DEFAULT_SIZE);\n  const activeLabel = typeof appsmith.model?.activeLabel === \"string\" ? appsmith.model.activeLabel : appsmith.model?.label || \"\";\n  const inactiveLabel = typeof appsmith.model?.inactiveLabel === \"string\" ? appsmith.model.inactiveLabel : appsmith.model?.label || \"\";\n  React.useEffect(() => {\n    appsmith.onModelChange((model, prevModel) => {\n      if (model.checked !== prevModel?.checked) setIsChecked(model.checked);\n      if (JSON.stringify(model.size) !== JSON.stringify(prevModel?.size)) setSize(model.size ?? DEFAULT_SIZE);\n    });\n  }, []);\n  const trackWidth = size.width || DEFAULT_SIZE.width;\n  const trackHeight = size.height || DEFAULT_SIZE.height;\n  const thumbSize = Math.max(trackHeight - 8, 20);\n  const thumbLeft = isChecked ? trackWidth - thumbSize - 4 : 4;\n  // Green color changed to #0b1727 as requested\n  const bgColor = isChecked ? '#0b1727' : '#CBD5E1';\n  const handleToggle = () => {\n    const newChecked = !isChecked;\n    setIsChecked(newChecked);\n    appsmith.updateModel({\n      checked: newChecked\n    });\n    appsmith.triggerEvent('onToggle', {\n      checked: newChecked\n    });\n  };\n  const currentLabel = isChecked ? activeLabel : inactiveLabel;\n  const showLabel = currentLabel && currentLabel.trim().length > 0;\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: \"toggle-adjustable-container\",\n    style: {\n      background: 'transparent'\n    }\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"adjustable-toggle-track\",\n    style: {\n      width: trackWidth,\n      height: trackHeight,\n      borderRadius: trackHeight,\n      background: bgColor\n    },\n    onClick: handleToggle\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"adjustable-toggle-thumb\",\n    style: {\n      top: (trackHeight - thumbSize) / 2,\n      left: thumbLeft,\n      width: thumbSize,\n      height: thumbSize\n    }\n  })), /*#__PURE__*/React.createElement(\"span\", {\n    className: \"adjustable-toggle-label\" + (showLabel ? \"\" : \" hide\")\n  }, showLabel ? currentLabel : null));\n}\nappsmith.onReady(() => {\n  ReactDOM.render(/*#__PURE__*/React.createElement(AdjustableToggle, null), document.getElementById('root'));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 2,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "html,\nbody,\n#root {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  min-height: 100%;\n  overflow: hidden; /* Suppress native scrollbars; Appsmith Auto-Height will handle the resizing */\n  background: transparent;\n}\n \n.toggle-adjustable-container {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap; /* Allows label to wrap below the toggle */\n  width: 100%;\n  padding: 0.5rem 0;\n  background: transparent;\n  box-sizing: border-box;\n  gap: 1rem; /* Maintains spacing even if wrapped */\n}\n \n.adjustable-toggle-track {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n  background: transparent;\n  flex-shrink: 0;\n}\n \n.adjustable-toggle-thumb {\n  position: absolute;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);\n  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n}\n \n.adjustable-toggle-label {\n  font-size: 1.125rem;\n  color: #1e293b;\n  font-family: system-ui, sans-serif;\n  font-weight: 500;\n  background: none;\n  display: inline-block;\n  line-height: 1.4;\n  word-break: break-word; /* Ensure long words wrap if necessary */\n}\n \n.adjustable-toggle-label.hide {\n  display: none !important;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nconst DEFAULT_SIZE = {\n\twidth: 56,\n\theight: 32\n};\nfunction AdjustableToggle() {\n\t// Set default checked to true if not in the model\n\tconst [isChecked, setIsChecked] = React.useState(typeof appsmith.model?.checked === 'boolean' ? appsmith.model.checked : true);\n\tconst [size, setSize] = React.useState(appsmith.model?.size || DEFAULT_SIZE);\n\tconst activeLabel = typeof appsmith.model?.activeLabel === \"string\" ? appsmith.model.activeLabel : appsmith.model?.label || \"\";\n\tconst inactiveLabel = typeof appsmith.model?.inactiveLabel === \"string\" ? appsmith.model.inactiveLabel : appsmith.model?.label || \"\";\n\tReact.useEffect(() => {\n\t\tappsmith.onModelChange((model, prevModel) => {\n\t\t\tif (model.checked !== prevModel?.checked) setIsChecked(model.checked);\n\t\t\tif (JSON.stringify(model.size) !== JSON.stringify(prevModel?.size)) setSize(model.size ?? DEFAULT_SIZE);\n\t\t});\n\t}, []);\n\tconst trackWidth = size.width || DEFAULT_SIZE.width;\n\tconst trackHeight = size.height || DEFAULT_SIZE.height;\n\tconst thumbSize = Math.max(trackHeight - 8, 20);\n\tconst thumbLeft = isChecked ? trackWidth - thumbSize - 4 : 4;\n\t// Green color changed to #0b1727 as requested\n\tconst bgColor = isChecked ? '#0b1727' : '#CBD5E1';\n\tconst handleToggle = () => {\n\t\tconst newChecked = !isChecked;\n\t\tsetIsChecked(newChecked);\n\t\tappsmith.updateModel({\n\t\t\tchecked: newChecked\n\t\t});\n\t\tappsmith.triggerEvent('onToggle', {\n\t\t\tchecked: newChecked\n\t\t});\n\t};\n\tconst currentLabel = isChecked ? activeLabel : inactiveLabel;\n\tconst showLabel = currentLabel && currentLabel.trim().length > 0;\n\treturn /*#__PURE__*/React.createElement(\"div\", {\n\t\tclassName: \"toggle-adjustable-container\",\n\t\tstyle: {\n\t\t\tbackground: 'transparent'\n\t\t}\n\t}, /*#__PURE__*/React.createElement(\"div\", {\n\t\tclassName: \"adjustable-toggle-track\",\n\t\tstyle: {\n\t\t\twidth: trackWidth,\n\t\t\theight: trackHeight,\n\t\t\tborderRadius: trackHeight,\n\t\t\tbackground: bgColor\n\t\t},\n\t\tonClick: handleToggle\n\t}, /*#__PURE__*/React.createElement(\"div\", {\n\t\tclassName: \"adjustable-toggle-thumb\",\n\t\tstyle: {\n\t\t\ttop: (trackHeight - thumbSize) / 2,\n\t\t\tleft: thumbLeft,\n\t\t\twidth: thumbSize,\n\t\t\theight: thumbSize\n\t\t}\n\t})), /*#__PURE__*/React.createElement(\"span\", {\n\t\tclassName: \"adjustable-toggle-label\" + (showLabel ? \"\" : \" hide\")\n\t}, showLabel ? currentLabel : null));\n}\nappsmith.onReady(() => {\n\tReactDOM.render(/*#__PURE__*/React.createElement(AdjustableToggle, null), document.getElementById('root'));\n});"
+  },
+  "version": 1,
+  "widgetId": "mdss234nx4",
+  "widgetName": "cwdg_ToggleActiveStatus"
+}

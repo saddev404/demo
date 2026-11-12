@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 16.20000000007407,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.93rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5v13nmcuvl",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13.1,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "originalBottomRow": 16.200000000073487,
+  "originalTopRow": 12.200000000071899,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "h01xug2qqn",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "shouldTruncate": false,
+  "text": "{{\n  (appsmith.store.nfaDraft?.prDetails?.currency  || \"-\" ) + \" \" +\n   \nNumber( appsmith.store.nfaDraft?.prDetails?.value || 0\n  ).toLocaleString(\"en-IN\")\n}}",
+  "textAlign": "LEFT",
+  "textColor": "#0B5ED7",
+  "topRow": 12.200000000074072,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "uuttyztn89",
+  "widgetName": "NFA_INITIATE__ValueValue"
+}

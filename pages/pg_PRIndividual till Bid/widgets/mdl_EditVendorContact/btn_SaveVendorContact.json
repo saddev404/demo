@@ -1,0 +1,23 @@
+{
+  "bottomRow": 36,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "leftColumn": 36,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onClick": "{{ js_SendRfpController.saveVendorContact(inp_VendorContactPerson.text, inp_VendorContactEmail.text, inp_VendorContactMobile.text); }}",
+  "parentId": "5h1n0jumkv",
+  "rightColumn": 62,
+  "text": "Save Details",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "widgetId": "p4u5oloafk",
+  "widgetName": "btn_SaveVendorContact"
+}

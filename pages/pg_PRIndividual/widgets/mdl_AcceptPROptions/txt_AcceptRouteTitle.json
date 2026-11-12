@@ -1,0 +1,15 @@
+{
+  "bottomRow": 6,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentId": "g3kzlyat97",
+  "rightColumn": 62,
+  "text": "<span style=\"font-size: 18px; font-weight: 700; color: #0f172a;\">Accept PR — Select Sourcing Route</span>",
+  "topRow": 2,
+  "type": "TEXT_WIDGET",
+  "widgetId": "a5ck5y6pj5",
+  "widgetName": "txt_AcceptRouteTitle"
+}

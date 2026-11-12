@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 56,
+  "bottomRowBeforeCollapse": 67,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ js_SendRfpController.isNextDisabled() }}",
+  "isLoading": false,
+  "isVisible": "{{ !js_SendRfpController.isHistoricalRound() }}",
+  "leftColumn": 51,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_SendRfpController.proceedToNextStage() }}",
+  "originalBottomRow": 56,
+  "originalTopRow": 51,
+  "parentId": "7nmvv62rr0",
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Next →",
+  "topRow": 51,
+  "topRowBeforeCollapse": 62,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "debz12xu92",
+  "widgetName": "btn_NextStage5"
+}

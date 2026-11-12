@@ -1,0 +1,32 @@
+{
+  "borderRadius": "6px",
+  "bottomRow": 106,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": "{{ js_CommercialEvaluationController.isNextDisabled() }}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 52,
+  "onClick": "{{ js_CommercialEvaluationController.proceedToNextStage() }}",
+  "originalBottomRow": 106,
+  "originalTopRow": 101,
+  "parentId": "ooizmuwdm7",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "Proceed to Negotiation →",
+  "topRow": 101,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ebq07aijhf",
+  "widgetName": "btn_NextStage8"
+}

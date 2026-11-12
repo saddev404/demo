@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#ffffff",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "tooltip"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "89izov6xaz",
+  "leftColumn": 4,
+  "minWidth": 120,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 15.166015625,
+  "parentId": "1uv26r6g1g",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "{{ appsmith.store.selected_pr.REQUISITION_NUMBER || appsmith.store.selected_pr.requisition }} | {{\n(() => {\n\t// 1. Grab the text from HEADER_NOTE (or fallback)\n\tlet rawText = appsmith.store.selected_pr.HEADER_NOTE || \"No Description\";\n\t// 2. Strip line breaks to keep the title clean on one line\n\tconst text = (rawText + \"\").replace(/[\\r\\n]+/g, ' ');\n\t// 3. Set your maximum character limit\n\tconst limit = 150; \n\t// 4. If it's too long, cut it and add \"...\", otherwise show full text\n\treturn text.length > limit \n\t\t? text.substring(0, limit).trim() + \"...\" \n\t: text;\n})()\n}}",
+  "tooltip": "{{  appsmith.store.selected_pr.requisition }} | {{appsmith.store.selected_pr.headernote || \"No Description\";\n}}",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "k1jfhtfcpn",
+  "widgetName": "Button1"
+}

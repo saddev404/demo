@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a70c113b4570191a2f94886_15bc4bce-0431-497c-9a29-ab419add1a2d",
+  "id": "pg_BuyerDashboard_js_DataStore",
+  "unpublishedCollection": {
+    "name": "js_DataStore",
+    "pageId": "pg_BuyerDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

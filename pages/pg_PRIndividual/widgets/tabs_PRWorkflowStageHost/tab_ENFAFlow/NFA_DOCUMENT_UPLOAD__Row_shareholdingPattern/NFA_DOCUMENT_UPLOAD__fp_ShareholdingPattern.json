@@ -1,0 +1,50 @@
+{
+  "allowedFileTypes": "{{ [\".pdf\", \".doc\", \".docx\", \".msg\", \".eml\", \".jpg\", \".jpeg\", \".png\", \".xls\", \".xlsx\", \".csv\"] }}",
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#FFFFFF",
+  "dynamicBindingPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "qg1kinwgo0",
+  "label": "Browse",
+  "leftColumn": 51,
+  "maxFileSize": 25,
+  "maxNumFiles": "10",
+  "minWidth": 120,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 51,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 3.2570495605468746,
+  "parentId": "bqz5uhc84o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 57,
+  "selectedFiles": [],
+  "topRow": 1,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "ypxpbwi6p9",
+  "widgetName": "NFA_DOCUMENT_UPLOAD__fp_ShareholdingPattern"
+}

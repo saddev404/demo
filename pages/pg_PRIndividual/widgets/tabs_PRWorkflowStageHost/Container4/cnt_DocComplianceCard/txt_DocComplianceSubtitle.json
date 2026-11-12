@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "abbo04muur",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "text": "Specification and quality criteria review",
+  "textColor": "#64748b",
+  "topRow": 3,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "151exy6713",
+  "widgetName": "txt_DocComplianceSubtitle"
+}

@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 111.9999999999735,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.60rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": "{{ appsmith.store.nfaDraft?.submissionStatus !== 'FAILED' }}",
+  "key": "oowxav5ruh",
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 123.4,
+  "mobileLeftColumn": 14.5,
+  "mobileRightColumn": 49.5,
+  "mobileTopRow": 119.2,
+  "needsErrorInfo": false,
+  "originalBottomRow": 111.99999999997453,
+  "originalTopRow": 106.99999999887505,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "4e5bzwvbjh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "shouldTruncate": false,
+  "text": "You can track the latest approval and Purchase Order status from your Procurement Dashboard.",
+  "textAlign": "CENTER",
+  "textColor": "#334155",
+  "topRow": 106.99999999887402,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "efetxz5sf4",
+  "widgetName": "NFA_SUBMITTED__SuccessNote"
+}

@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "defaultSelectedValues": "{{ appsmith.store.nfaDraft?.vendorSelection?.selectedVendors || [] }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultSelectedValues"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "suhzkuhg6s",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "",
+  "labelTextColor": "#132238",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "onSelectionChange": "{{ js_NFAController.handleVendorSelectionChange() }}",
+  "optionAlignment": "unset",
+  "options": [
+    {
+      "label": "ARCHICLAD FACADES LLP  •  Vendor ID: PD-2024-001  •  Quoted Price: ₹ 12,45,000  •  Rank: L1",
+      "value": "ARCHICLAD FACADES LLP"
+    },
+    {
+      "label": "DURGA CONSTRUCTION  •  Vendor ID: PD-2024-045  •  Quoted Price: ₹ 13,10,000  •  Rank: L2",
+      "value": "DURGA CONSTRUCTION"
+    },
+    {
+      "label": "OMM ENTERPRISES  •  Vendor ID: PD-2024-112  •  Quoted Price: ₹ 14,80,000  •  Rank: L3",
+      "value": "OMM ENTERPRISES"
+    }
+  ],
+  "originalBottomRow": 16,
+  "originalTopRow": 6,
+  "parentColumnSpace": 17.064453125,
+  "parentId": "bd4z8m2xu6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "topRow": 6,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "b3p8lwxpgg",
+  "widgetName": "NFA_VENDOR_SELECTION__CheckboxGroup1"
+}

@@ -1,0 +1,47 @@
+{
+  "accentColor": "#2563EB",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 4.2,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{ !!appsmith.store.nfaDraft?.vendorSelection?.multiNFA }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "m3enywjr2x",
+  "label": "Enable Multi-NFA Split",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#475569",
+  "labelTextSize": "0.75rem",
+  "leftColumn": 49,
+  "minWidth": 120,
+  "mobileBottomRow": 4.2,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 0.8,
+  "needsErrorInfo": false,
+  "onChange": "{{ js_NFAController.handleMultiNFAToggle() }}",
+  "parentColumnSpace": 7.5,
+  "parentId": "6bux5g76t9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "topRow": 0.8,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "n09f6r7bno",
+  "widgetName": "NFA_VENDOR_SELECTION__MultiNFASwitch"
+}

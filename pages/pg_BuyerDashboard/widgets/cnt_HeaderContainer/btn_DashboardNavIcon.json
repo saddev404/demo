@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#ffffff",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "manual",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iqypsn5wwz",
+  "leftColumn": 0,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 4,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "",
+  "parentColumnSpace": 19.5,
+  "parentId": "ud2n6fercs",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 4,
+  "tooltip": "",
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fn2ibnftrp",
+  "widgetName": "btn_DashboardNavIcon"
+}

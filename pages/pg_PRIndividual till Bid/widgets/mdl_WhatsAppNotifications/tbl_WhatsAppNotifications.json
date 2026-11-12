@@ -1,0 +1,179 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 71,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "columnOrder": [
+    "timestamp",
+    "vendorName",
+    "mobileNumber",
+    "notificationEvent",
+    "messagePreview",
+    "status"
+  ],
+  "columnUpdatedAt": 1790759364021,
+  "columnWidthMap": {
+    "messagePreview": 260,
+    "mobileNumber": 202,
+    "notificationEvent": 218,
+    "status": 120,
+    "timestamp": 170,
+    "vendorName": 180
+  },
+  "compactMode": "TALL",
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.timestamp.computedValue"
+    },
+    {
+      "key": "primaryColumns.vendorName.computedValue"
+    },
+    {
+      "key": "primaryColumns.mobileNumber.computedValue"
+    },
+    {
+      "key": "primaryColumns.notificationEvent.computedValue"
+    },
+    {
+      "key": "primaryColumns.messagePreview.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "leftColumn": 1,
+  "parentId": "9987gqi360",
+  "primaryColumns": {
+    "messagePreview": {
+      "alias": "messagePreview",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"messagePreview\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "messagePreview",
+      "index": 4,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Message Preview",
+      "originalId": "messagePreview",
+      "verticalAlignment": "CENTER",
+      "width": 260
+    },
+    "mobileNumber": {
+      "alias": "mobileNumber",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"mobileNumber\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "mobileNumber",
+      "index": 2,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Mobile Number",
+      "originalId": "mobileNumber",
+      "textColor": "#64748b",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "notificationEvent": {
+      "alias": "notificationEvent",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"notificationEvent\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "notificationEvent",
+      "index": 3,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Notification Event",
+      "originalId": "notificationEvent",
+      "verticalAlignment": "CENTER",
+      "width": 190
+    },
+    "status": {
+      "alias": "status",
+      "cellBackground": "#dcfce7",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"status\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "CENTER",
+      "id": "status",
+      "index": 5,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "Delivery Status",
+      "originalId": "status",
+      "textColor": "#15803d",
+      "verticalAlignment": "CENTER",
+      "width": 120
+    },
+    "timestamp": {
+      "alias": "timestamp",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"timestamp\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "timestamp",
+      "index": 0,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Date & Time",
+      "originalId": "timestamp",
+      "verticalAlignment": "CENTER",
+      "width": 170
+    },
+    "vendorName": {
+      "alias": "vendorName",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_WhatsAppNotifications.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"vendorName\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "vendorName",
+      "index": 1,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Vendor Name",
+      "originalId": "vendorName",
+      "verticalAlignment": "CENTER",
+      "width": 180
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "tableData": "{{ js_BidMonitoringController.getWhatsAppNotificationLogs() }}",
+  "textSize": "0.875rem",
+  "topRow": 6,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "widgetId": "rqo5tsrj94",
+  "widgetName": "tbl_WhatsAppNotifications"
+}

@@ -1,0 +1,23 @@
+{
+  "bottomRow": 36,
+  "buttonColor": "#64748b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "leftColumn": 18,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onClick": "{{ closeModal('mdl_EditVendorContact'); }}",
+  "parentId": "h7opaae8pu",
+  "rightColumn": 34,
+  "text": "Cancel",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "widgetId": "1qgl5b82gs",
+  "widgetName": "btn_CancelVendorContact"
+}

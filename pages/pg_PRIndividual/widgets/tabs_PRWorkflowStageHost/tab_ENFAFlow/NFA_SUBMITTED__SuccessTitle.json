@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 33.00000000003274,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "1.2rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7zsdctvv40",
+  "leftColumn": 19,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 47.800000000000004,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 45.1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 33.00000000003274,
+  "originalTopRow": 29.000000000031164,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "jrnv4987ym",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.submissionStatus === 'FAILED' ? 'NFA Submission Failed' : appsmith.store.nfaDraft?.submissionStatus === 'PROCESSING' ? 'NFA Submission in Progress' : 'NFA Submitted Successfully' }}",
+  "textAlign": "CENTER",
+  "textColor": "#132238",
+  "topRow": 29.000000000031164,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "kaz2itzsno",
+  "widgetName": "NFA_SUBMITTED__SuccessTitle"
+}

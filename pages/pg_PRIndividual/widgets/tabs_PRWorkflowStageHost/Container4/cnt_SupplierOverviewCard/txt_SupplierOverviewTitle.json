@@ -1,0 +1,18 @@
+{
+  "bottomRow": 4,
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "uta5uj5n7e",
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "text": "Supplier Evaluation Overview",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "o85szf8xk9",
+  "widgetName": "txt_SupplierOverviewTitle"
+}

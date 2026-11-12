@@ -1,0 +1,15 @@
+{
+  "bottomRow": 17,
+  "fontSize": "0.8rem",
+  "isVisible": true,
+  "leftColumn": 4,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 21,
+  "text": "Run online auction among eligible vendors to get best price.",
+  "textColor": "#64748b",
+  "topRow": 11,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "zd133j9etk",
+  "widgetName": "txt_AuctionDesc"
+}

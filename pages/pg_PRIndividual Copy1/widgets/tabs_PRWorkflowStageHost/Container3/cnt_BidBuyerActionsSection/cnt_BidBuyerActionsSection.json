@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderColor": "transparent",
+  "borderRadius": "0px",
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 120,
+      "dynamicBindingPathList": [],
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "5pp46fv3qx",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zaj5jmogi0",
+      "widgetName": "Canvas_BuyerActions"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "isVisible": true,
+  "leftColumn": 0,
+  "originalBottomRow": 40,
+  "originalTopRow": 28,
+  "parentId": "xqw4dsu2x5",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 26,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "5pp46fv3qx",
+  "widgetName": "cnt_BidBuyerActionsSection"
+}

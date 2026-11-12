@@ -1,0 +1,26 @@
+{
+  "bottomRow": 21,
+  "defaultText": "{{ appsmith.store.vendor_contact_email || 'arjun.mehta@technovalves.com' }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "inputType": "EMAIL",
+  "label": "Official Notification Email",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#334155",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentId": "h7opaae8pu",
+  "placeholderText": "e.g. contact@domain.com",
+  "rightColumn": 62,
+  "topRow": 14,
+  "type": "INPUT_WIDGET_V2",
+  "widgetId": "50bbdq53o2",
+  "widgetName": "inp_VendorContactEmail"
+}

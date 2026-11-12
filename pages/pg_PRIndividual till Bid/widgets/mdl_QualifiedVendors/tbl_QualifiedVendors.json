@@ -1,0 +1,147 @@
+{
+  "borderRadius": "8px",
+  "bottomRow": 57,
+  "columnOrder": [
+    "vendorName",
+    "status",
+    "submissionTime",
+    "contact",
+    "bidAmount"
+  ],
+  "columnWidthMap": {
+    "bidAmount": 150,
+    "contact": 160,
+    "status": 140,
+    "submissionTime": 150,
+    "vendorName": 180
+  },
+  "compactMode": "TALL",
+  "defaultPageSize": 5,
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.vendorName.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    },
+    {
+      "key": "primaryColumns.submissionTime.computedValue"
+    },
+    {
+      "key": "primaryColumns.contact.computedValue"
+    },
+    {
+      "key": "primaryColumns.bidAmount.computedValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "leftColumn": 0,
+  "parentId": "cblq9rnlxa",
+  "primaryColumns": {
+    "bidAmount": {
+      "alias": "bidAmount",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_QualifiedVendors.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"bidAmount\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "RIGHT",
+      "id": "bidAmount",
+      "index": 4,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Round 3 BAFO Quote",
+      "originalId": "bidAmount",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "contact": {
+      "alias": "contact",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_QualifiedVendors.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"contact\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "contact",
+      "index": 3,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Supplier Contact",
+      "originalId": "contact",
+      "textColor": "#64748b",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 160
+    },
+    "status": {
+      "alias": "status",
+      "cellBackground": "#dcfce7",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_QualifiedVendors.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"status\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "CENTER",
+      "id": "status",
+      "index": 1,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Response Status",
+      "originalId": "status",
+      "textColor": "#15803d",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 140
+    },
+    "submissionTime": {
+      "alias": "submissionTime",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_QualifiedVendors.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"submissionTime\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "submissionTime",
+      "index": 2,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Submission Time",
+      "originalId": "submissionTime",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "vendorName": {
+      "alias": "vendorName",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_QualifiedVendors.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"vendorName\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "vendorName",
+      "index": 0,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Vendor Name",
+      "originalId": "vendorName",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 180
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "tableData": "{{ js_BidMonitoringController.getVendorsTableData() }}",
+  "topRow": 11,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "widgetId": "5vtkymoe51",
+  "widgetName": "tbl_QualifiedVendors"
+}

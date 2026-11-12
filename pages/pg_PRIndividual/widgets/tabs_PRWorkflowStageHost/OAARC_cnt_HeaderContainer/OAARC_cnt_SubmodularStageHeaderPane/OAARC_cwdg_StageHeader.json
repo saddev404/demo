@@ -1,0 +1,54 @@
+{
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "0px",
+  "borderWidth": "",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultModel": "{\n  \"phaseBadge\": \"Stage 01 - OUTLINE AGREEMENT & RATE AUDIT\",\n  \"title\": \"OA / ARC Contract Eligibility Check\",\n  \"subtitle\": \"Identify and audit Outline Agreements (OA) and Annual Rate Contracts (ARC).\"\n}\n",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "c3d4513cd8",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "parentColumnSpace": 18.671875,
+  "parentId": "vhvh53ep9e",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 41,
+  "srcDoc": {
+    "css": "/* ============================================================================\n * WORKFLOW STAGE HEADER - ENTERPRISE STAGE TITLE BANNER\n * Reusable Custom Widget for Stage/Phase Header Banner across all workflow pages.\n * ============================================================================ */\n:root {\n  --color-badge: #2563eb;\n  --color-title: #0f172a;\n  --color-subtitle: #64748b;\n  --color-bg-white: #ffffff;\n}\n\nhtml, body, #root {\n  box-sizing: border-box;\n  font-family: \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: auto;\n  background: transparent;\n  overflow: hidden !important;\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\nhtml::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar,\n.stage-header-container::-webkit-scrollbar, .stage-header-container *::-webkit-scrollbar {\n  display: none !important;\n  width: 0 !important;\n  height: 0 !important;\n}\n\n.stage-header-container, .stage-header-container * {\n  box-sizing: border-box;\n  font-family: \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n\n.stage-header-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  width: 100%;\n  padding: 16px 24px;\n  background: #ffffff;\n  border-radius: 8px;\n}\n\n.stage-phase-badge {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 11px;\n  font-weight: 700;\n  color: #2563eb;\n  text-transform: uppercase;\n  letter-spacing: 0.6px;\n  line-height: 1.2;\n}\n\n.stage-title {\n  font-size: 28px;\n  font-weight: 800;\n  color: #0f172a;\n  margin: 0;\n  line-height: 1.25;\n  letter-spacing: -0.3px;\n}\n\n.stage-subtitle {\n  font-size: 13px;\n  font-weight: 400;\n  color: #64748b;\n  line-height: 1.5;\n  margin: 0;\n  max-width: 950px;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\n// Dynamic AppSmith Model Parser\nconst parseAppsmithModel = modelRaw => {\n  if (!modelRaw) return {};\n  let parsed = modelRaw;\n  if (typeof modelRaw === 'string') {\n    try {\n      parsed = JSON.parse(modelRaw);\n    } catch (e) {}\n  }\n  return parsed || {};\n};\nfunction WorkflowStageHeader() {\n  const [modelData, setModelData] = useState(() => parseAppsmithModel(window.appsmith?.model));\n  useEffect(() => {\n    if (window.appsmith?.onModelChange) {\n      window.appsmith.onModelChange(m => {\n        if (!m) return;\n        setModelData(parseAppsmithModel(m));\n      });\n    }\n  }, []);\n  const phaseBadge = modelData.phaseBadge || modelData.phaseText || 'PHASE 02 — SPECIFICATIONS & ALIGNMENT VERIFICATION';\n  const title = modelData.title || modelData.titleText || 'Agent Consistency Validation Hub';\n  const subtitle = modelData.subtitle || modelData.subtitleText || modelData.description || 'Sequential multi-agent verification check auditing scope, timeline, Bill of Quantities (BOQ), technical spec compliance, asset registries, approved vendor manufacturer lists (AML), and drawdown authorizations.';\n  return React.createElement('div', {\n    className: 'stage-header-container'\n  }, phaseBadge ? React.createElement('div', {\n    className: 'stage-phase-badge'\n  }, phaseBadge) : null, title ? React.createElement('h1', {\n    className: 'stage-title'\n  }, title) : null, subtitle ? React.createElement('p', {\n    className: 'stage-subtitle'\n  }, subtitle) : null);\n}\nappsmith.onReady(() => {\n  ReactDOM.render(React.createElement(WorkflowStageHeader, null), document.getElementById('root'));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 0,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "/* ============================================================================\n * WORKFLOW STAGE HEADER - ENTERPRISE STAGE TITLE BANNER\n * Reusable Custom Widget for Stage/Phase Header Banner across all workflow pages.\n * ============================================================================ */\n\n:root {\n  --color-badge: #2563eb;\n  --color-title: #0f172a;\n  --color-subtitle: #64748b;\n  --color-bg-white: #ffffff;\n}\n\nhtml, body, #root {\n  box-sizing: border-box;\n  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: auto;\n  background: transparent;\n  overflow: hidden !important;\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\nhtml::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar,\n.stage-header-container::-webkit-scrollbar, .stage-header-container *::-webkit-scrollbar {\n  display: none !important;\n  width: 0 !important;\n  height: 0 !important;\n}\n\n.stage-header-container, .stage-header-container * {\n  box-sizing: border-box;\n  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n\n.stage-header-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  width: 100%;\n  padding: 16px 24px;\n  background: #ffffff;\n  border-radius: 8px;\n}\n\n.stage-phase-badge {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 11px;\n  font-weight: 700;\n  color: #2563eb;\n  text-transform: uppercase;\n  letter-spacing: 0.6px;\n  line-height: 1.2;\n}\n\n.stage-title {\n  font-size: 28px;\n  font-weight: 800;\n  color: #0f172a;\n  margin: 0;\n  line-height: 1.25;\n  letter-spacing: -0.3px;\n}\n\n.stage-subtitle {\n  font-size: 13px;\n  font-weight: 400;\n  color: #64748b;\n  line-height: 1.5;\n  margin: 0;\n  max-width: 950px;\n}\n",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\n// Dynamic AppSmith Model Parser\nconst parseAppsmithModel = (modelRaw) => {\n  if (!modelRaw) return {};\n  let parsed = modelRaw;\n  if (typeof modelRaw === 'string') {\n    try { parsed = JSON.parse(modelRaw); } catch (e) {}\n  }\n  return parsed || {};\n};\n\nfunction WorkflowStageHeader() {\n  const [modelData, setModelData] = useState(() => parseAppsmithModel(window.appsmith?.model));\n\n  useEffect(() => {\n    if (window.appsmith?.onModelChange) {\n      window.appsmith.onModelChange(m => {\n        if (!m) return;\n        setModelData(parseAppsmithModel(m));\n      });\n    }\n  }, []);\n\n  const phaseBadge = modelData.phaseBadge || modelData.phaseText || 'PHASE 02 — SPECIFICATIONS & ALIGNMENT VERIFICATION';\n  const title = modelData.title || modelData.titleText || 'Agent Consistency Validation Hub';\n  const subtitle = modelData.subtitle || modelData.subtitleText || modelData.description || 'Sequential multi-agent verification check auditing scope, timeline, Bill of Quantities (BOQ), technical spec compliance, asset registries, approved vendor manufacturer lists (AML), and drawdown authorizations.';\n\n  return React.createElement(\n    'div',\n    { className: 'stage-header-container' },\n    phaseBadge ? React.createElement('div', { className: 'stage-phase-badge' }, phaseBadge) : null,\n    title ? React.createElement('h1', { className: 'stage-title' }, title) : null,\n    subtitle ? React.createElement('p', { className: 'stage-subtitle' }, subtitle) : null\n  );\n}\n\nappsmith.onReady(() => {\n  ReactDOM.render(React.createElement(WorkflowStageHeader, null), document.getElementById('root'));\n});\n"
+  },
+  "version": 1,
+  "widgetId": "39l2svvolf",
+  "widgetName": "OAARC_cwdg_StageHeader"
+}

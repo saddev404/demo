@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "h2ldlybyo3",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "✓  Technically Qualified",
+  "textColor": "#16a34a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "kkzvbyoe4v",
+  "widgetName": "txt_TileQualifiedIconLbl"
+}

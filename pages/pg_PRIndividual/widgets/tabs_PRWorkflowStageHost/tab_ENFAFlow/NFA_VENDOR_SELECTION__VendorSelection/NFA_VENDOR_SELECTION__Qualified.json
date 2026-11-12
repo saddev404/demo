@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ECFDF5",
+  "borderRadius": "6px",
+  "bottomRow": 5.2,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.58rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "r7gtcyf518",
+  "leftColumn": 52,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 3.8,
+  "mobileLeftColumn": 52,
+  "mobileRightColumn": 62.5,
+  "mobileTopRow": 1.2,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3.7999999999992724,
+  "originalTopRow": 1.2,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "bd4z8m2xu6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62.5,
+  "shouldTruncate": false,
+  "text": "{{ (NFA_VENDOR_SELECTION__CheckboxGroup1.selectedValues || []).length + ' of 3 Vendors Selected' }}",
+  "textAlign": "CENTER",
+  "textColor": "#059669",
+  "topRow": 1.2,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "d94wer1vxu",
+  "widgetName": "NFA_VENDOR_SELECTION__Qualified"
+}

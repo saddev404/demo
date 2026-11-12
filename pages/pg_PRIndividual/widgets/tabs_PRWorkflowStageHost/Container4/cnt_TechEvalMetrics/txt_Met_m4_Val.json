@@ -1,0 +1,19 @@
+{
+  "bottomRow": 8,
+  "fontSize": "0.9375rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 33,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "text": "8",
+  "textAlign": "CENTER",
+  "textColor": "#0f172a",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "nrogeygofn",
+  "widgetName": "txt_Met_m4_Val"
+}

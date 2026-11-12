@@ -1,0 +1,36 @@
+{
+  "bottomRow": 24,
+  "defaultOptionValue": "RFP_ARIBA",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "options": [
+    {
+      "label": "RFP in Ariba ",
+      "value": "RFP_ARIBA"
+    },
+    {
+      "label": "NFA in Ariba ",
+      "value": "NFA_ARIBA"
+    },
+    {
+      "label": "Direct PO basis existing NFA ",
+      "value": "DIRECT_PO"
+    },
+    {
+      "label": "Manual Route",
+      "value": "MANUAL_ROUTE"
+    }
+  ],
+  "originalBottomRow": 24,
+  "originalTopRow": 13,
+  "parentId": "z3b3vnjup5",
+  "rightColumn": 62,
+  "topRow": 13,
+  "type": "RADIO_GROUP_WIDGET",
+  "widgetId": "isyibrtox4",
+  "widgetName": "rd_AcceptRoute"
+}

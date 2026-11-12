@@ -1,0 +1,18 @@
+{
+  "borderRadius": "6px",
+  "bottomRow": 23,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "SECONDARY",
+  "isDisabled": true,
+  "isVisible": true,
+  "leftColumn": 4,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 19,
+  "text": "Start Auction",
+  "tooltip": "This is currently under design",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "10zhd2ch5e",
+  "widgetName": "btn_StartAuction"
+}

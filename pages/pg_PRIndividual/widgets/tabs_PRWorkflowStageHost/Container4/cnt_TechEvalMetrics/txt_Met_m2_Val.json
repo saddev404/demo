@@ -1,0 +1,21 @@
+{
+  "bottomRow": 8,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.9375rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 11,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 22,
+  "text": "Polu Bharat",
+  "textAlign": "CENTER",
+  "textColor": "#0f172a",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "2sozdngia4",
+  "widgetName": "txt_Met_m2_Val"
+}

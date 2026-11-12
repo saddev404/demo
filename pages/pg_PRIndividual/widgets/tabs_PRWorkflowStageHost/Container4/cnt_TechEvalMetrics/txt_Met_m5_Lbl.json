@@ -1,0 +1,19 @@
+{
+  "bottomRow": 4,
+  "fontSize": "0.6875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 43,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "text": "EVALUATED",
+  "textAlign": "CENTER",
+  "textColor": "#64748b",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "9fk3b8s3lh",
+  "widgetName": "txt_Met_m5_Lbl"
+}

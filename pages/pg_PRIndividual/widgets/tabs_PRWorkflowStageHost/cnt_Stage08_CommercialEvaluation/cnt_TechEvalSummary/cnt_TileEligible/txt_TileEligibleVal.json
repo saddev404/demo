@@ -1,0 +1,17 @@
+{
+  "bottomRow": 11,
+  "fontSize": "1.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "9z8gbc3gw4",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "5",
+  "textColor": "#0f172a",
+  "topRow": 5,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "6ldnfnbrmz",
+  "widgetName": "txt_TileEligibleVal"
+}

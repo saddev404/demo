@@ -1,0 +1,17 @@
+{
+  "bottomRow": 4,
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "45b50z6ayu",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "Commercial Comparison Sheet (CS)  ⓘ",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "3bvu2v3vsi",
+  "widgetName": "txt_CcsTitle"
+}

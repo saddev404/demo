@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "10px",
+  "bottomRow": 25,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.04)",
+  "children": [
+    {
+      "bottomRow": 120,
+      "dynamicBindingPathList": [],
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "hvg0egjv5v",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "vlf25twy1j",
+      "widgetName": "Canvas_TimerCard"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isVisible": true,
+  "leftColumn": 46,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 25,
+  "originalTopRow": 13,
+  "parentId": "01pqjo6s7c",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "topRow": 13,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "hvg0egjv5v",
+  "widgetName": "cnt_BidTimerCard"
+}

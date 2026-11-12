@@ -1,0 +1,43 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 34,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 200,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "ebqep6di5k",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "7105ip4trx",
+      "widgetName": "Canvas_TechEvalSummary"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 34,
+  "originalTopRow": 14,
+  "parentId": "ooizmuwdm7",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "topRow": 14,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "ebqep6di5k",
+  "widgetName": "cnt_TechEvalSummary"
+}

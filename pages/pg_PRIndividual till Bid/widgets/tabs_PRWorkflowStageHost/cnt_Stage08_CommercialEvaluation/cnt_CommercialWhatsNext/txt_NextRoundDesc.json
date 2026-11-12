@@ -1,0 +1,15 @@
+{
+  "bottomRow": 17,
+  "fontSize": "0.8rem",
+  "isVisible": true,
+  "leftColumn": 25,
+  "parentId": "fjsc6kl25s",
+  "rightColumn": 42,
+  "text": "Create next round RFP with revised conditions or requirements.",
+  "textColor": "#64748b",
+  "topRow": 11,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "yhz3xlakri",
+  "widgetName": "txt_NextRoundDesc"
+}

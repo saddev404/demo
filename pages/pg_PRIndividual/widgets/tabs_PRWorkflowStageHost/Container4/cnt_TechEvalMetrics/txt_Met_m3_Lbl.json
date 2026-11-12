@@ -1,0 +1,19 @@
+{
+  "bottomRow": 4,
+  "fontSize": "0.6875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 22,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 33,
+  "text": "STATUS",
+  "textAlign": "CENTER",
+  "textColor": "#64748b",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "dt6bylu3qs",
+  "widgetName": "txt_Met_m3_Lbl"
+}

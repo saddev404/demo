@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#EFF6FF",
+  "borderRadius": "6px",
+  "bottomRow": 34,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.62rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a6msk8tyvs",
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 40.4,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 38.1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "xf3yjef20c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.analysisStatus === \"FAILED\" ? \"⚠  DOCUMENT ANALYSIS FAILED\" : \"•••  ANALYZING UPLOADED DOCUMENTS...\" }}",
+  "textAlign": "CENTER",
+  "textColor": "#2563EB",
+  "topRow": 30,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ce0vx3c7fl",
+  "widgetName": "NFA_DOCUMENT_ANALYSIS__Parsing"
+}

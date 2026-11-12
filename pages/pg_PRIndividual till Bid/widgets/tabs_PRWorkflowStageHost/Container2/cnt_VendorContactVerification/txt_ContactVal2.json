@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 34,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "needsErrorInfo": false,
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
+  "parentId": "3uklmue789",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 52,
+  "text": "{{ (appsmith.store.vendor_contact_email || 'arjun.mehta@technovalves.com') + ' | ' + (appsmith.store.vendor_contact_mobile || '+91 9876543210') }}",
+  "textAlign": "LEFT",
+  "textColor": "#2563eb",
+  "topRow": 10,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "wjk4hozd32",
+  "widgetName": "txt_ContactVal2"
+}

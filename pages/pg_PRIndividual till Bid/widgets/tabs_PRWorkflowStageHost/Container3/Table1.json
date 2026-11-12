@@ -1,0 +1,297 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 59,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "cachedTableData": {},
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "vendorName",
+    "status",
+    "submissionTime",
+    "contact",
+    "bidAmount",
+    "savings",
+    "rank"
+  ],
+  "columnUpdatedAt": 1790759339997,
+  "columnWidthMap": {
+    "bidAmount": 150,
+    "contact": 228,
+    "status": 305,
+    "submissionTime": 300,
+    "vendorName": 180
+  },
+  "compactMode": "TALL",
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.vendorName.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    },
+    {
+      "key": "primaryColumns.submissionTime.computedValue"
+    },
+    {
+      "key": "primaryColumns.contact.computedValue"
+    },
+    {
+      "key": "primaryColumns.bidAmount.computedValue"
+    },
+    {
+      "key": "primaryColumns.savings.computedValue"
+    },
+    {
+      "key": "primaryColumns.rank.computedValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "zb3r0k8y46",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "originalBottomRow": 59,
+  "originalTopRow": 25,
+  "parentColumnSpace": 19.30859375,
+  "parentId": "7dhyor83gf",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "bidAmount": {
+      "alias": "bidAmount",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"bidAmount\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "RIGHT",
+      "id": "bidAmount",
+      "index": 4,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "BAFO Quote",
+      "originalId": "bidAmount",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "contact": {
+      "alias": "contact",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"contact\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "contact",
+      "index": 3,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Supplier Contact",
+      "originalId": "contact",
+      "textColor": "#64748b",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 160
+    },
+    "rank": {
+      "alias": "rank",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"rank\"])) : rank })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "rank",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "rank",
+      "notation": "standard",
+      "originalId": "rank",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "savings": {
+      "alias": "savings",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"savings\"])) : savings })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "savings",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "savings",
+      "notation": "standard",
+      "originalId": "savings",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "status": {
+      "alias": "status",
+      "cellBackground": "#dcfce7",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"status\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "CENTER",
+      "id": "status",
+      "index": 1,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Response Status",
+      "originalId": "status",
+      "textColor": "#15803d",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 140
+    },
+    "submissionTime": {
+      "alias": "submissionTime",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"submissionTime\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "submissionTime",
+      "index": 2,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Submission Time",
+      "originalId": "submissionTime",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "vendorName": {
+      "alias": "vendorName",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"vendorName\"])) : \"\" })()}}",
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "vendorName",
+      "index": 0,
+      "isCellVisible": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Vendor Name",
+      "originalId": "vendorName",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 180
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{ js_BidMonitoringController.getVendorsTableData() }}",
+  "textSize": "0.875rem",
+  "topRow": 25,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "pdf1q3cyns",
+  "widgetName": "Table1"
+}

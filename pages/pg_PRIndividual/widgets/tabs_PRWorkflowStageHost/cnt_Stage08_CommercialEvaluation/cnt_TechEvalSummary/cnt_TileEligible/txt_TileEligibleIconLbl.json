@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "9z8gbc3gw4",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "🛡️  Commercially Eligible",
+  "textColor": "#16a34a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "bj5mro3vq4",
+  "widgetName": "txt_TileEligibleIconLbl"
+}

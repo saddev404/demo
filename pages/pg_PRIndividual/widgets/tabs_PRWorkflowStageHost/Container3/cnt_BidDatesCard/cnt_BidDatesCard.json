@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "10px",
+  "bottomRow": 25,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.04)",
+  "children": [
+    {
+      "bottomRow": 120,
+      "dynamicBindingPathList": [],
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "24wljzb7hz",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pefflpk52n",
+      "widgetName": "Canvas_DatesCard"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "isVisible": true,
+  "leftColumn": 18,
+  "originalBottomRow": 25,
+  "originalTopRow": 13,
+  "parentId": "01pqjo6s7c",
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "topRow": 13,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "24wljzb7hz",
+  "widgetName": "cnt_BidDatesCard"
+}

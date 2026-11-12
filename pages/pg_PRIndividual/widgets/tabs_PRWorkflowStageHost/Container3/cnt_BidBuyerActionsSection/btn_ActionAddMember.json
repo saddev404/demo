@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 10,
+  "boxShadow": "0 1px 3px 0 rgba(37, 99, 235, 0.12)",
+  "buttonColor": "#0b1727",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "labelTextColor": "#0b1727",
+  "leftColumn": 42,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_BidMonitoringController.onAddMemberClick() }}",
+  "parentId": "fiesxhfger",
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "text": "👤Add Member  ",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1zttr2tz7r",
+  "widgetName": "btn_ActionAddMember"
+}

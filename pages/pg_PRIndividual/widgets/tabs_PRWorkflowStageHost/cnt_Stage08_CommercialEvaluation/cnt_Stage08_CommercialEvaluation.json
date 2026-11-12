@@ -1,0 +1,42 @@
+{
+  "backgroundColor": "transparent",
+  "borderColor": "transparent",
+  "borderRadius": "0px",
+  "borderWidth": 0,
+  "bottomRow": 108,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 1080,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "94wv4521rb",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ooizmuwdm7",
+      "widgetName": "Canvas8"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 108,
+  "originalTopRow": 0,
+  "parentId": "5nazf2ajrh",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "94wv4521rb",
+  "widgetName": "cnt_Stage08_CommercialEvaluation"
+}

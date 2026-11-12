@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6abd02014e8cce4ceb7e0c61_a39297c2-d884-4662-96b1-c03a1ae3dcfb",
+  "id": "pg_PRIndividual Copy1_js_PR_Consistency_Parser",
+  "unpublishedCollection": {
+    "name": "js_PR_Consistency_Parser",
+    "pageId": "pg_PRIndividual Copy1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isAiSummaryVisible",
+        "value": "false"
+      },
+      {
+        "name": "aiSummaryText",
+        "value": "\"\""
+      }
+    ]
+  }
+}

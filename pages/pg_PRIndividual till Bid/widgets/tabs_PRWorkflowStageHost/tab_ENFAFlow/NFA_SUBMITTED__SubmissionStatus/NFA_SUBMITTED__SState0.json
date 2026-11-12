@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#EAF3FF",
+  "borderRadius": "3px",
+  "bottomRow": 38.99999999998472,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.58rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": "{{ !!appsmith.store.nfaDraft?.approvers?.[0] }}",
+  "key": "15o6sjzg0b",
+  "leftColumn": 43,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 28.7,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "originalBottomRow": 38.99999999998545,
+  "originalTopRow": 34.999999999105654,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "x9syetjqs9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.submissionStatus === 'FAILED' ? 'Not Started' : 'Awaiting Approval' }}",
+  "textAlign": "RIGHT",
+  "textColor": "#0B5ED7",
+  "topRow": 34.99999999910493,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "1qp6ph840v",
+  "widgetName": "NFA_SUBMITTED__SState0"
+}

@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "0px",
+  "borderWidth": "",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultModel": "{\n  \"department\": \"\",\n  \"userName\": \"{{appsmith.store.active_buyer.name}}\",\n  \"welcomeMessage\": \"Welcome back\",\n  \"subtitle\": \"Manage your category's active protocols, pending evaluations, and RFQ releases.\"\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "9kdnmirib9",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 23,
+  "originalTopRow": 0,
+  "parentColumnSpace": 22.90625,
+  "parentId": "hoi6w1qqtt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 22,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap\");\nhtml,\nbody,\n#root {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  min-height: 0;\n  min-width: 0;\n  background: transparent;\n  font-family: \"Inter\", system-ui, -apple-system, sans-serif;\n  box-sizing: border-box;\n}\n\n.widget-container {\n  width: 100%;\n  min-height: 0;\n  min-width: 0;\n  background: #ffffff;\n  box-sizing: border-box;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\n\n.welcome-header {\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-start;\n  gap: 0.1em;\n  text-align: left;\n}\n\n.eyebrow-row {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  gap: 12px;\n  margin: 0 0 4px 0;\n}\n\n.eyebrow {\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n  color: #2563eb;\n  margin: 0;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  background-color: #1e293b;\n  color: #94a3b8;\n  font-size: 11px;\n  font-weight: 600;\n  padding: 3px 10px;\n  border-radius: 9999px;\n  white-space: nowrap;\n}\n\n.badge-count {\n  color: #10b981;\n  font-weight: 700;\n  margin-left: 4px;\n}\n\n.main-title {\n  font-size: 32px;\n  font-weight: 800;\n  line-height: 1.1;\n  color: #0f172a;\n  margin: 0 0 4px 0;\n  letter-spacing: -0.5px;\n  word-break: break-word;\n  max-width: 95vw;\n  text-align: left;\n}\n\n.subtitle {\n  font-size: 16px;\n  font-weight: 500;\n  line-height: 1.5;\n  color: #94a3b8;\n  margin: 0;\n  word-break: break-word;\n  max-width: 95vw;\n  text-align: left;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction WelcomeHeader() {\n  const [model, setModel] = useState(appsmith.model || {});\n  useEffect(() => {\n    appsmith.onModelChange(newModel => {\n      if (newModel) setModel(newModel);\n    });\n  }, []);\n  const {\n    department = \"SYSTEM\",\n    userName = \"User\",\n    welcomeMessage = \"Welcome\",\n    subtitle = \"Loading your dashboard...\",\n    totalPrCount\n  } = model;\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: \"widget-container\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"welcome-header\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"eyebrow-row\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"eyebrow\"\n  }, department), totalPrCount !== undefined && totalPrCount !== null && totalPrCount !== \"\" && /*#__PURE__*/React.createElement(\"div\", {\n    className: \"badge\"\n  }, \"Total PR Count: \", /*#__PURE__*/React.createElement(\"span\", {\n    className: \"badge-count\"\n  }, totalPrCount))), /*#__PURE__*/React.createElement(\"h1\", {\n    className: \"main-title\"\n  }, welcomeMessage, \", \", userName, \".\"), /*#__PURE__*/React.createElement(\"p\", {\n    className: \"subtitle\"\n  }, subtitle)));\n}\nappsmith.onReady(() => {\n  document.documentElement.style.overflow = 'hidden';\n  document.body.style.overflow = 'hidden';\n  ReactDOM.render(/*#__PURE__*/React.createElement(WelcomeHeader, null), document.getElementById('root'));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 0,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap\");\nhtml,\nbody,\n#root {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  min-height: 0;\n  min-width: 0;\n  background: transparent;\n  font-family: \"Inter\", system-ui, -apple-system, sans-serif;\n  box-sizing: border-box;\n}\n \n.widget-container {\n  width: 100%;\n  min-height: 0;\n  min-width: 0;\n  background: #ffffff;\n  box-sizing: border-box;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\n \n.welcome-header {\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-start;\n  gap: 0.1em;\n  text-align: left;\n}\n \n.eyebrow-row {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  gap: 12px;\n  margin: 0 0 4px 0;\n}\n \n.eyebrow {\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n  color: #2563eb;\n  margin: 0;\n}\n \n.badge {\n  display: inline-flex;\n  align-items: center;\n  background-color: #1e293b;\n  color: #94a3b8;\n  font-size: 11px;\n  font-weight: 600;\n  padding: 3px 10px;\n  border-radius: 9999px;\n  white-space: nowrap;\n}\n \n.badge-count {\n  color: #10b981;\n  font-weight: 700;\n  margin-left: 4px;\n}\n \n.main-title {\n  font-size: 32px;\n  font-weight: 800;\n  line-height: 1.1;\n  color: #0f172a;\n  margin: 0 0 4px 0;\n  letter-spacing: -0.5px;\n  word-break: break-word;\n  max-width: 95vw;\n  text-align: left;\n}\n \n.subtitle {\n  font-size: 16px;\n  font-weight: 500;\n  line-height: 1.5;\n  color: #94a3b8;\n  margin: 0;\n  word-break: break-word;\n  max-width: 95vw;\n  text-align: left;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\nfunction WelcomeHeader() {\n  const [model, setModel] = useState(appsmith.model || {});\n\n  useEffect(() => {\n    appsmith.onModelChange((newModel) => {\n      if (newModel) setModel(newModel);\n    });\n  }, []);\n\n  const {\n    department = \"SYSTEM\",\n    userName = \"User\",\n    welcomeMessage = \"Welcome\",\n    subtitle = \"Loading your dashboard...\",\n    totalPrCount\n  } = model;\n\n  return (\n    <div className=\"widget-container\">\n      <div className=\"welcome-header\">\n        <div className=\"eyebrow-row\">\n          <div className=\"eyebrow\">{department}</div>\n          {totalPrCount !== undefined && totalPrCount !== null && totalPrCount !== \"\" && (\n            <div className=\"badge\">\n              Total PR Count: <span className=\"badge-count\">{totalPrCount}</span>\n            </div>\n          )}\n        </div>\n        <h1 className=\"main-title\">{welcomeMessage}, {userName}.</h1>\n        <p className=\"subtitle\">{subtitle}</p>\n      </div>\n    </div>\n  );\n}\n\nappsmith.onReady(() => {\n  document.documentElement.style.overflow = 'hidden';\n  document.body.style.overflow = 'hidden';\n  ReactDOM.render(<WelcomeHeader />, document.getElementById('root'));\n});\n"
+  },
+  "version": 1,
+  "widgetId": "2g8umsircl",
+  "widgetName": "cwdg_PRReviewQueueTable"
+}

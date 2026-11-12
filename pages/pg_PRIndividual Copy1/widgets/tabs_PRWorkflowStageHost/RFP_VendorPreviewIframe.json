@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderColor": "#DBE4EF",
+  "borderOpacity": 100,
+  "borderRadius": "0px 0px 7px 7px",
+  "borderWidth": 1,
+  "bottomRow": 162,
+  "bottomRowBeforeCollapse": 162,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": "{{ [\"TEMPLATE_GENERATED\", \"SEND_RFP\", \"BID_MONITORING\"].includes(appsmith.store.selected_vendor_group?.STATUS) }}",
+  "key": "1afb3e447d",
+  "leftColumn": 0,
+  "mobileBottomRow": 90,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "originalBottomRow": 162,
+  "originalTopRow": 105,
+  "parentColumnSpace": 20.25,
+  "parentId": "5mszm6r7zy",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "source": "https://gmrgroup.sharepoint.com/sites/TransformationProjects-AgenticAIInProcurement/_layouts/15/Doc.aspx?sourcedoc=%7B49add5cc-75f0-465c-a6bf-a481ce02ce87%7D&file=4800008295_RFQ_RO%20Membranes%20%28TORAY%29%20-%20Supply_28082026_2632.docx&action=embedview",
+  "srcDoc": "",
+  "topRow": 105,
+  "topRowBeforeCollapse": 105,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "m4z4ma8j8w",
+  "widgetName": "RFP_VendorPreviewIframe"
+}

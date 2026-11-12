@@ -1,0 +1,37 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "0.5rem",
+  "borderWidth": "1",
+  "bottomRow": 125,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 410,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "tay7eh8jb4",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "abbo04muur",
+      "widgetName": "Canvas_DocCompliance"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "originalBottomRow": 125,
+  "originalTopRow": 84,
+  "parentId": "xze5cpmeo4",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 84,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "tay7eh8jb4",
+  "widgetName": "cnt_DocComplianceCard"
+}

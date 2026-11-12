@@ -1,0 +1,40 @@
+{
+  "borderRadius": "6px",
+  "bottomRow": 12,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": "{{appsmith.store.commercialComparisonGenerated === true}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "onClick": "{{ js_CommercialEvaluationController.generateComparisonSheet() }}",
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentId": "45b50z6ayu",
+  "renderMode": "CANVAS",
+  "rightColumn": 16,
+  "text": "Generate Comparison Sheet",
+  "topRow": 8,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "eyhxlho3m6",
+  "widgetName": "btn_GenerateComparisonSheet"
+}

@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "6px",
+  "bottomRow": 6.8,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6dchugqea5",
+  "leftColumn": 45.7,
+  "minWidth": 80,
+  "mobileBottomRow": 6.8,
+  "mobileLeftColumn": 45.7,
+  "mobileRightColumn": 62.8,
+  "mobileTopRow": 1.7,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_NFAController.submitForApproval() }}",
+  "parentColumnSpace": 7.5,
+  "parentId": "c4nx69ojpq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62.8,
+  "text": "Confirm & Submit for Approval   ▷",
+  "topRow": 1.7,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "p78hq41bpd",
+  "widgetName": "NFA_APPROVER_CONFIRMATION__ConfirmSubmit"
+}

@@ -1,0 +1,43 @@
+{
+  "bottomRow": 33,
+  "canOutsideClickClose": true,
+  "children": [
+    {
+      "bottomRow": 360,
+      "dynamicBindingPathList": [],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 368,
+      "parentId": "swhi8q3iup",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "z3b3vnjup5",
+      "widgetName": "Canvas_mdl_AcceptPROptions"
+    }
+  ],
+  "detachFromLayout": true,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "height": 368,
+  "isLoading": false,
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 24,
+  "minHeight": 330,
+  "parentId": "0",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "shouldScrollContents": true,
+  "topRow": 174,
+  "type": "MODAL_WIDGET",
+  "version": 2,
+  "widgetId": "swhi8q3iup",
+  "widgetName": "mdl_AcceptPROptions",
+  "width": 646
+}

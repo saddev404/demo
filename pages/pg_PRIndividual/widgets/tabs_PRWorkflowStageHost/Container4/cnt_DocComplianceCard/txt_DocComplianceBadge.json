@@ -1,0 +1,32 @@
+{
+  "backgroundColor": "{{ js_TechnicalEvaluationController.getSelectedSupplierComplianceBadge() === \"Compliant\" ? \"#ecfdf5\" : \"#fef2f2\" }}",
+  "borderRadius": "9999px",
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 53,
+  "parentId": "abbo04muur",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "{{ js_TechnicalEvaluationController.getSelectedSupplierComplianceBadge() }}",
+  "textAlign": "CENTER",
+  "textColor": "{{ js_TechnicalEvaluationController.getSelectedSupplierComplianceBadge() === \"Compliant\" ? \"#059669\" : \"#dc2626\" }}",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "54picgedwy",
+  "widgetName": "txt_DocComplianceBadge"
+}

@@ -1,0 +1,22 @@
+{
+  "backgroundColor": "#ecfdf5",
+  "borderRadius": "9999px",
+  "bottomRow": 4,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 17,
+  "parentId": "r3yftwyvdc",
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "text": "Based on opened envelopes",
+  "textAlign": "CENTER",
+  "textColor": "#059669",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "w1hlz8u2ce",
+  "widgetName": "txt_CommSummaryBadge"
+}

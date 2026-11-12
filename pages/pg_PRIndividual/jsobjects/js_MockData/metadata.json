@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6abe35bb5402c77f907169ec_f1ba0778-023a-410c-aacd-621e3fbb543a",
+  "id": "pg_PRIndividual_js_MockData",
+  "unpublishedCollection": {
+    "name": "js_MockData",
+    "pageId": "pg_PRIndividual",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

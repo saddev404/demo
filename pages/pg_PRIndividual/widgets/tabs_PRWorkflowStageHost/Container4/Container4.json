@@ -1,0 +1,42 @@
+{
+  "backgroundColor": "transparent",
+  "borderRadius": "0",
+  "borderWidth": "0",
+  "bottomRow": 134,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 1340,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "xovelnze1o",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "xze5cpmeo4",
+      "widgetName": "Canvas7"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 134,
+  "originalTopRow": 0,
+  "parentId": "9xo18ijtj3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "xovelnze1o",
+  "widgetName": "Container4"
+}

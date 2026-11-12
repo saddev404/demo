@@ -1,0 +1,42 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 48,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 140,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "qumpv7edtm",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "45b50z6ayu",
+      "widgetName": "Canvas_CommercialComparisonSheet"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 48,
+  "originalTopRow": 34,
+  "parentId": "ooizmuwdm7",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "topRow": 34,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "qumpv7edtm",
+  "widgetName": "cnt_CommercialComparisonSheet"
+}

@@ -1,0 +1,18 @@
+{
+  "bottomRow": 4,
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "7105ip4trx",
+  "renderMode": "CANVAS",
+  "rightColumn": 40,
+  "text": "Technical Evaluation Summary",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "6gduq6qxh1",
+  "widgetName": "txt_TechEvalSummaryTitle"
+}

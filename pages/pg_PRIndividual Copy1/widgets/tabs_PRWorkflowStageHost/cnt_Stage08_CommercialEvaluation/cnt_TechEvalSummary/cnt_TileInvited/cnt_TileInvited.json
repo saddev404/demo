@@ -1,0 +1,41 @@
+{
+  "backgroundColor": "#f8fafc",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 18,
+  "children": [
+    {
+      "bottomRow": 130,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "undsd2yjiq",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "i47u1b0ev1",
+      "widgetName": "cvs_TileInvited"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 18,
+  "originalTopRow": 5,
+  "parentId": "6wub4kl1tv",
+  "renderMode": "CANVAS",
+  "rightColumn": 16,
+  "shouldScrollContents": true,
+  "topRow": 5,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "undsd2yjiq",
+  "widgetName": "cnt_TileInvited"
+}

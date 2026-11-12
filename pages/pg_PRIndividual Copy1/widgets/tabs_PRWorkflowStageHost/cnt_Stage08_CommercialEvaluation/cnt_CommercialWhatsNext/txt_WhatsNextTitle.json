@@ -1,0 +1,17 @@
+{
+  "bottomRow": 4,
+  "fontSize": "1.125rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 63,
+  "text": "What's Next?",
+  "textAlign": "LEFT",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "15pgur3kee",
+  "widgetName": "txt_WhatsNextTitle"
+}

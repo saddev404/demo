@@ -1,0 +1,20 @@
+{
+  "bottomRow": 7,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.75rem",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "7hordqy5y5",
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "text": "Technically evaluated suppliers across negotiation iterations",
+  "textColor": "#64748b",
+  "topRow": 3,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "4i1s6q6z1n",
+  "widgetName": "txt_SupplierOverviewSubtitle"
+}

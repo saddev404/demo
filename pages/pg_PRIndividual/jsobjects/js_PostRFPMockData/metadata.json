@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6abe35bb5402c77f907169ec_b5995e4e-b69d-46ea-82eb-0c77ea7688ff",
+  "id": "pg_PRIndividual_js_PostRFPMockData",
+  "unpublishedCollection": {
+    "name": "js_PostRFPMockData",
+    "pageId": "pg_PRIndividual",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "MOCK_MODE",
+        "value": "true"
+      }
+    ]
+  }
+}

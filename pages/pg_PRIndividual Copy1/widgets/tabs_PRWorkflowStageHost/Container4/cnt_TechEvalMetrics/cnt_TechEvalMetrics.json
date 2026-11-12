@@ -1,0 +1,37 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "0.5rem",
+  "borderWidth": "1",
+  "bottomRow": 24,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 100,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "j47181ewvn",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "yb3jqa0cs0",
+      "widgetName": "Canvas_TechEval_Metrics"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "originalBottomRow": 24,
+  "originalTopRow": 14,
+  "parentId": "krdbnhxhmz",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 14,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "j47181ewvn",
+  "widgetName": "cnt_TechEvalMetrics"
+}

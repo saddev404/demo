@@ -1,0 +1,18 @@
+{
+  "bottomRow": 6,
+  "dynamicBindingPathList": [],
+  "fontSize": "1.25rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 2,
+  "parentId": "ou17nh21os",
+  "renderMode": "CANVAS",
+  "rightColumn": 58,
+  "text": "Qualified Vendors & Comparative Bids (5)",
+  "textColor": "#0f172a",
+  "topRow": 2,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "wyepobnvjj",
+  "widgetName": "txt_VendorModalTitle"
+}

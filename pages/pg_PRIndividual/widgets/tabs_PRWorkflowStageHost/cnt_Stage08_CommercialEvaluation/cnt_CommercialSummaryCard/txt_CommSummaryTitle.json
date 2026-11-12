@@ -1,0 +1,17 @@
+{
+  "bottomRow": 4,
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "h5y0haseum",
+  "renderMode": "CANVAS",
+  "rightColumn": 16,
+  "text": "Commercial Summary",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "5dimm71rfp",
+  "widgetName": "txt_CommSummaryTitle"
+}

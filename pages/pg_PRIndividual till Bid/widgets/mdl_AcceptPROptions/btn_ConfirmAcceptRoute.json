@@ -1,0 +1,30 @@
+{
+  "bottomRow": 35,
+  "buttonColor": "#059669",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "leftColumn": 34,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onClick": "{{ js_NavigationController.handleAcceptRoute(rd_AcceptRoute.selectedOptionValue); }}",
+  "originalBottomRow": 35,
+  "originalTopRow": 30,
+  "parentId": "z3b3vnjup5",
+  "rightColumn": 62,
+  "text": "Confirm & Proceed",
+  "topRow": 30,
+  "type": "BUTTON_WIDGET",
+  "widgetId": "774tud1pbs",
+  "widgetName": "btn_ConfirmAcceptRoute"
+}

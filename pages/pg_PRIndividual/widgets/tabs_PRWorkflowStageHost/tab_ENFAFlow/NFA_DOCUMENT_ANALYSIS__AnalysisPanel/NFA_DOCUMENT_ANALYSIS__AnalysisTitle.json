@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 16,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "1.15rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2mghgfs8ic",
+  "leftColumn": 15,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24.2,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 20.5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 20.299999999995634,
+  "originalTopRow": 16.299999999994903,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "xf3yjef20c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.analysisStatus === \"FAILED\" ? \"Analysis Failed\" : \"Analyzing Your Documents\" }}",
+  "textAlign": "CENTER",
+  "textColor": "#132238",
+  "topRow": 12,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "lq1qieok8c",
+  "widgetName": "NFA_DOCUMENT_ANALYSIS__AnalysisTitle"
+}

@@ -1,0 +1,26 @@
+{
+  "bottomRow": 29,
+  "defaultText": "{{ appsmith.store.vendor_contact_mobile || '+91 9876543210' }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "inputType": "TEXT",
+  "label": "WhatsApp Notification Mobile",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#334155",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentId": "h7opaae8pu",
+  "placeholderText": "e.g. +91 9876543210",
+  "rightColumn": 62,
+  "topRow": 22,
+  "type": "INPUT_WIDGET_V2",
+  "widgetId": "gqq2mdg5uy",
+  "widgetName": "inp_VendorContactMobile"
+}

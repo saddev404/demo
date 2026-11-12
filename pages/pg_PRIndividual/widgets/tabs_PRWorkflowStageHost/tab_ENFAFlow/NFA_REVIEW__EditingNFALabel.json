@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 22.000000000003638,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.60rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "10c5471758",
+  "leftColumn": 1.5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16.2,
+  "mobileLeftColumn": 1.5,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "originalBottomRow": 22.000000000003638,
+  "originalTopRow": 18.000000000005087,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "hzqui7iv6b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 27,
+  "shouldTruncate": false,
+  "text": "{{ '✎  EDITING NFA #' + js_NFAController.getDisplayNfaId() }}",
+  "textAlign": "LEFT",
+  "textColor": "#2563EB",
+  "topRow": 18.000000000005087,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "b7jrm445dr",
+  "widgetName": "NFA_REVIEW__EditingNFALabel"
+}

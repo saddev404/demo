@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.68rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zilv8yru0c",
+  "leftColumn": 42,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "t40vy1drem",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldTruncate": false,
+  "text": "{{ js_NFAController.getDocumentUploadStatus(\"commercialComparison\", NFA_DOCUMENT_UPLOAD__fp_CommercialComparison.files) }}",
+  "textAlign": "RIGHT",
+  "textColor": "{{ appsmith.store.nfaDraft?.documents?.commercialComparison?.length ? \"#15803d\" : (NFA_DOCUMENT_UPLOAD__fp_CommercialComparison.files?.length ? \"#92400e\" : \"#64748b\") }}",
+  "topRow": 1,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "aown8ritmt",
+  "widgetName": "NFA_DOCUMENT_UPLOAD__Drag_commercialComparison"
+}

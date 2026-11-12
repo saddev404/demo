@@ -1,0 +1,16 @@
+{
+  "bottomRow": 11,
+  "fontSize": "0.925rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 25,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 42,
+  "text": "Raise Next Round of RFP",
+  "textColor": "#0f172a",
+  "topRow": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ba35ivxwy3",
+  "widgetName": "txt_NextRoundTitle"
+}

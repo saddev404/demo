@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 38.000000000029104,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.66rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "165pvfv8tb",
+  "leftColumn": 17,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 53.300000000000004,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 49.5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 38.000000000029104,
+  "originalTopRow": 34.00000000003078,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "jrnv4987ym",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 47,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.submissionStatus === 'FAILED' ? 'NFA submission failed. Please try again.' : appsmith.store.nfaDraft?.submissionStatus === 'PROCESSING' ? 'Your NFA is being submitted. Please wait for the process to complete.' : ('Your Note For Approval (' + js_NFAController.getDisplayNfaId() + ') has been submitted for approval and is currently being processed by the system.') }}",
+  "textAlign": "CENTER",
+  "textColor": "#64748B",
+  "topRow": 34.00000000003078,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "1l9s0wcddu",
+  "widgetName": "NFA_SUBMITTED__SuccessSub"
+}

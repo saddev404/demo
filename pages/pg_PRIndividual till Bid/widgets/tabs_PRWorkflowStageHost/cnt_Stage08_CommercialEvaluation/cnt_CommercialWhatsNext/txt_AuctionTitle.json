@@ -1,0 +1,16 @@
+{
+  "bottomRow": 11,
+  "fontSize": "0.925rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 4,
+  "parentId": "fjsc6kl25s",
+  "rightColumn": 21,
+  "text": "Go for Auction",
+  "textColor": "#0f172a",
+  "topRow": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "nj8f149buz",
+  "widgetName": "txt_AuctionTitle"
+}

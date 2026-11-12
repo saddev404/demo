@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "6px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7gxrzyfz7l",
+  "leftColumn": 1,
+  "minWidth": 80,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_NFAController.saveDocumentDraft() }}",
+  "parentColumnSpace": 7.5,
+  "parentId": "v9tx5k24jq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 8,
+  "text": "Save Draft",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "sb2scexfqh",
+  "widgetName": "NFA_DOCUMENT_UPLOAD__SaveDraft"
+}

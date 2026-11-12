@@ -1,0 +1,67 @@
+{
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "defaultModel": "{{\n  {\n    \"loading\": false,\n    \"groups\": (js_MockData.getVendorGroups() || []).map(group => ({\n      groupId: group.RFQ_GROUP_ID,\n      referenceId: \"RFQ-\" + group.RFQ_GROUP_ID,\n      groupName: group.GROUP_NAME,\n      status: group.STATUS,\n      vendorCount: group.SELECTED_VENDORS ? String(group.SELECTED_VENDORS).split(\",\").length : 0\n    }))\n  }\n}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onVendorGroupSelect"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onVendorGroupSelect"
+    }
+  ],
+  "events": [
+    "onVendorGroupSelect"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "08570f19ef",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onVendorGroupSelect": "{{ js_RfpStageController.handleGroupSelect() }}\n",
+  "originalBottomRow": 34,
+  "originalTopRow": 16,
+  "parentColumnSpace": 19.125,
+  "parentId": "v3901o4282",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "srcDoc": {
+    "css": ":root {\n  --blue: #2563eb;\n  --blue-soft: #eff6ff;\n  --green: #16a34a;\n  --green-bg: #dcfce7;\n  --ink: #0f172a;\n  --muted: #64748b;\n  --border: #dbe4ef;\n  --surface: #ffffff;\n  --page: #f8fafc;\n}\n\nhtml,\nbody,\n#root {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  box-sizing: border-box;\n  background: transparent;\n  font-family: \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\n.panel {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  background: transparent;\n  color: var(--ink);\n}\n\n.panel-title {\n  height: 26px;\n  display: flex;\n  align-items: center;\n  padding: 0 2px 8px 2px;\n  font-size: 10px;\n  line-height: 1;\n  font-weight: 800;\n  letter-spacing: 0.45px;\n  color: #64748b;\n  text-transform: uppercase;\n}\n\n.list {\n  flex: 1;\n  min-height: 0;\n  display: flex;\n  flex-direction: row;\n  gap: 10px;\n  overflow-x: auto;\n  overflow-y: hidden;\n  padding: 1px 3px 6px 1px;\n  scrollbar-width: thin;\n}\n\n.card {\n  appearance: none;\n  flex: 0 0 250px;\n  width: 250px;\n  min-width: 250px;\n  min-height: 92px;\n  border: 1px solid var(--border);\n  border-radius: 7px;\n  background: var(--surface);\n  padding: 12px 12px 11px 12px;\n  text-align: left;\n  cursor: pointer;\n  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.025);\n  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;\n}\n\n.card:hover {\n  border-color: #93b4ff;\n  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08);\n  transform: translateY(-1px);\n}\n\n.card.selected {\n  border: 2px solid var(--blue);\n  padding: 11px 11px 10px 11px;\n  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.1);\n}\n\n.card-top {\n  display: flex;\n  align-items: flex-start;\n  justify-content: space-between;\n  gap: 8px;\n}\n\n.ref {\n  min-width: 0;\n  font-size: 9px;\n  line-height: 1.25;\n  font-weight: 750;\n  color: #64748b;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.badge {\n  flex: 0 0 auto;\n  border-radius: 4px;\n  padding: 3px 6px;\n  background: var(--green-bg);\n  color: var(--green);\n  font-size: 8px;\n  line-height: 1;\n  font-weight: 850;\n  letter-spacing: 0.25px;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n.group-name {\n  margin-top: 7px;\n  font-size: 15px;\n  line-height: 1.25;\n  font-weight: 800;\n  color: var(--ink);\n}\n\n.meta {\n  margin-top: 7px;\n  font-size: 10px;\n  line-height: 1.25;\n  font-weight: 550;\n  color: var(--muted);\n}\n\n.empty,\n.loading {\n  flex: 1;\n  min-height: 160px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 18px;\n  border: 1px dashed #cbd5e1;\n  border-radius: 7px;\n  background: rgba(255, 255, 255, 0.75);\n  color: #64748b;\n  font-size: 12px;\n  text-align: center;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction RFP_VendorGroupSelectorComponent() {\n  const [model, setModel] = useState({\n    groups: [],\n    loading: false\n  });\n  const [selectedId, setSelectedId] = useState('');\n  useEffect(() => {\n    if (window.appsmith?.onModelChange) {\n      window.appsmith.onModelChange(newModel => setModel(newModel || {\n        groups: [],\n        loading: false\n      }));\n    }\n  }, []);\n  const groups = model.groups || [];\n  const handleSelect = groupId => {\n    setSelectedId(groupId);\n    if (window.appsmith) {\n      window.appsmith.updateModel({\n        ...model,\n        selectedGroupId: groupId\n      });\n      setTimeout(() => {\n        window.appsmith.triggerEvent('onVendorGroupSelect');\n      }, 50);\n    }\n  };\n\n  // Auto-select first group if nothing is selected\n  useEffect(() => {\n    if (groups.length > 0 && !selectedId) {\n      handleSelect(groups[0].groupId);\n    }\n  }, [groups, selectedId]);\n  if (model.loading) {\n    return React.createElement('div', {\n      className: 'panel'\n    }, React.createElement('div', {\n      className: 'loading'\n    }, 'Loading vendor groups...'));\n  }\n  return React.createElement('div', {\n    className: 'panel'\n  }, React.createElement('div', {\n    className: 'panel-title'\n  }, `Vendor Groups (${groups.length})`), groups.length === 0 ? React.createElement('div', {\n    className: 'empty'\n  }, 'No vendor recommendation groups available.') : React.createElement('div', {\n    className: 'list'\n  }, groups.map(item => React.createElement('button', {\n    key: item.groupId,\n    className: `card ${item.groupId === selectedId ? 'selected' : ''}`,\n    onClick: () => handleSelect(item.groupId)\n  }, React.createElement('div', {\n    className: 'card-top'\n  }, React.createElement('span', {\n    className: 'ref'\n  }, item.referenceId), React.createElement('span', {\n    className: 'badge'\n  }, item.status)), React.createElement('div', {\n    className: 'group-name'\n  }, item.groupName), React.createElement('div', {\n    className: 'meta'\n  }, React.createElement('span', null, `Vendors: ${item.vendorCount}`))))));\n}\nappsmith.onReady(() => {\n  ReactDOM.render(React.createElement(RFP_VendorGroupSelectorComponent), document.getElementById(\"root\"));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 16,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ":root {\n    --blue: #2563eb;\n    --blue-soft: #eff6ff;\n    --green: #16a34a;\n    --green-bg: #dcfce7;\n    --ink: #0f172a;\n    --muted: #64748b;\n    --border: #dbe4ef;\n    --surface: #ffffff;\n    --page: #f8fafc;\n}\n \nhtml,\nbody,\n#root {\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    overflow: hidden;\n    box-sizing: border-box;\n    background: transparent;\n    font-family: \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n \n*,\n*::before,\n*::after {\n    box-sizing: border-box;\n}\n \n.panel {\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    background: transparent;\n    color: var(--ink);\n}\n \n.panel-title {\n    height: 26px;\n    display: flex;\n    align-items: center;\n    padding: 0 2px 8px 2px;\n    font-size: 10px;\n    line-height: 1;\n    font-weight: 800;\n    letter-spacing: .45px;\n    color: #64748b;\n    text-transform: uppercase;\n}\n \n.list {\n    flex: 1;\n    min-height: 0;\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    overflow-x: auto;\n    overflow-y: hidden;\n    padding: 1px 3px 6px 1px;\n    scrollbar-width: thin;\n}\n \n.card {\n    appearance: none;\n    flex: 0 0 250px;\n    width: 250px;\n    min-width: 250px;\n    min-height: 92px;\n    border: 1px solid var(--border);\n    border-radius: 7px;\n    background: var(--surface);\n    padding: 12px 12px 11px 12px;\n    text-align: left;\n    cursor: pointer;\n    box-shadow: 0 1px 2px rgba(15, 23, 42, .025);\n    transition: border-color .16s ease, box-shadow .16s ease, transform .16s ease;\n}\n \n.card:hover {\n    border-color: #93b4ff;\n    box-shadow: 0 4px 12px rgba(37, 99, 235, .08);\n    transform: translateY(-1px);\n}\n \n.card.selected {\n    border: 2px solid var(--blue);\n    padding: 11px 11px 10px 11px;\n    box-shadow: 0 3px 10px rgba(37, 99, 235, .10);\n}\n \n.card-top {\n    display: flex;\n    align-items: flex-start;\n    justify-content: space-between;\n    gap: 8px;\n}\n \n.ref {\n    min-width: 0;\n    font-size: 9px;\n    line-height: 1.25;\n    font-weight: 750;\n    color: #64748b;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n}\n \n.badge {\n    flex: 0 0 auto;\n    border-radius: 4px;\n    padding: 3px 6px;\n    background: var(--green-bg);\n    color: var(--green);\n    font-size: 8px;\n    line-height: 1;\n    font-weight: 850;\n    letter-spacing: .25px;\n    text-transform: uppercase;\n    white-space: nowrap;\n}\n \n.group-name {\n    margin-top: 7px;\n    font-size: 15px;\n    line-height: 1.25;\n    font-weight: 800;\n    color: var(--ink);\n}\n \n.meta {\n    margin-top: 7px;\n    font-size: 10px;\n    line-height: 1.25;\n    font-weight: 550;\n    color: var(--muted);\n}\n \n.empty,\n.loading {\n    flex: 1;\n    min-height: 160px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 18px;\n    border: 1px dashed #cbd5e1;\n    border-radius: 7px;\n    background: rgba(255, 255, 255, .75);\n    color: #64748b;\n    font-size: 12px;\n    text-align: center;\n}",
+    "html": "<div id=\"root\"></div>",
+    "js": "import React, { useState, useEffect } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n \nfunction RFP_VendorGroupSelectorComponent() {\n    const [model, setModel] = useState({ groups: [], loading: false });\n    const [selectedId, setSelectedId] = useState('');\n \n    useEffect(() => {\n        if (window.appsmith?.onModelChange) {\n            window.appsmith.onModelChange((newModel) => setModel(newModel || { groups: [], loading: false }));\n        }\n    }, []);\n \n    const groups = model.groups || [];\n \n    const handleSelect = (groupId) => {\n        setSelectedId(groupId);\n        if (window.appsmith) {\n            window.appsmith.updateModel({ ...model, selectedGroupId: groupId });\n            setTimeout(() => {\n                window.appsmith.triggerEvent('onVendorGroupSelect');\n            }, 50);\n        }\n    };\n \n    // Auto-select first group if nothing is selected\n    useEffect(() => {\n        if (groups.length > 0 && !selectedId) {\n            handleSelect(groups[0].groupId);\n        }\n    }, [groups, selectedId]);\n \n    if (model.loading) {\n        return React.createElement('div', { className: 'panel' },\n            React.createElement('div', { className: 'loading' }, 'Loading vendor groups...')\n        );\n    }\n \n    return React.createElement('div', { className: 'panel' },\n        React.createElement('div', { className: 'panel-title' }, `Vendor Groups (${groups.length})`),\n        groups.length === 0 ?\n            React.createElement('div', { className: 'empty' }, 'No vendor recommendation groups available.') :\n            React.createElement('div', { className: 'list' },\n                groups.map(item => React.createElement('button', {\n                    key: item.groupId,\n                    className: `card ${item.groupId === selectedId ? 'selected' : ''}`,\n                    onClick: () => handleSelect(item.groupId)\n                },\n                    React.createElement('div', { className: 'card-top' },\n                        React.createElement('span', { className: 'ref' }, item.referenceId),\n                        React.createElement('span', { className: 'badge' }, item.status)\n                    ),\n                    React.createElement('div', { className: 'group-name' }, item.groupName),\n                    React.createElement('div', { className: 'meta' },\n                        React.createElement('span', null, `Vendors: ${item.vendorCount}`)\n                    )\n                ))\n            )\n    );\n}\n \nappsmith.onReady(() => {\n    ReactDOM.render(\n        React.createElement(RFP_VendorGroupSelectorComponent),\n        document.getElementById(\"root\")\n    );\n});\n "
+  },
+  "version": 1,
+  "widgetId": "5xgzecqtzd",
+  "widgetName": "RFP_VendorGroupSelector"
+}

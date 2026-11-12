@@ -1,0 +1,16 @@
+{
+  "bottomRow": 11,
+  "fontSize": "0.925rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 46,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 63,
+  "text": "Finalize for Negotiation",
+  "textColor": "#0f172a",
+  "topRow": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "di6pcfvewm",
+  "widgetName": "txt_NegotiationTitle"
+}

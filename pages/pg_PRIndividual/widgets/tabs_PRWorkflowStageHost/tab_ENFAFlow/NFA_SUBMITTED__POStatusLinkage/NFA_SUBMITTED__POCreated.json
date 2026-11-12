@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderRadius": "4px",
+  "bottomRow": 11.5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.74rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "j28q2pdoqk",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12.1,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 12.099999999998545,
+  "originalTopRow": 6,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "hon2qseaih",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "shouldTruncate": false,
+  "text": "{{ '▱   PO Created\n      Status: ' + ((appsmith.store.nfaDraft?.poStatus || 'Not Created') === 'Not Created' ? 'Locked (Pending NFA)' : appsmith.store.nfaDraft.poStatus) }}",
+  "textAlign": "LEFT",
+  "textColor": "#334155",
+  "topRow": 7.5,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "xbidlz0sj1",
+  "widgetName": "NFA_SUBMITTED__POCreated"
+}

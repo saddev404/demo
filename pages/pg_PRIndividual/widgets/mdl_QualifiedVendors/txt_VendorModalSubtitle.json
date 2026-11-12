@@ -1,0 +1,18 @@
+{
+  "bottomRow": 10,
+  "dynamicBindingPathList": [],
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isVisible": true,
+  "leftColumn": 2,
+  "parentId": "ou17nh21os",
+  "renderMode": "CANVAS",
+  "rightColumn": 58,
+  "text": "Live vendor response status and negotiated round pricing received via SAP Ariba.",
+  "textColor": "#64748b",
+  "topRow": 6,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "nq5a0t8dov",
+  "widgetName": "txt_VendorModalSubtitle"
+}

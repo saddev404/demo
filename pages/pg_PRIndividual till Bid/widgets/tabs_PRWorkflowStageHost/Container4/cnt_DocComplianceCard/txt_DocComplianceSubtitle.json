@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "t7h3txppxw",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "text": "Specification and quality criteria review",
+  "textColor": "#64748b",
+  "topRow": 3,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "5se3x61fe9",
+  "widgetName": "txt_DocComplianceSubtitle"
+}

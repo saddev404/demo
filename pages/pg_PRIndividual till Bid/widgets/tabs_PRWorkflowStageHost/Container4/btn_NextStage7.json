@@ -1,0 +1,34 @@
+{
+  "borderRadius": "0.375rem",
+  "bottomRow": 131,
+  "boxShadow": "none",
+  "buttonColor": "#1d4ed8",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": "{{ js_TechnicalEvaluationController.isNextDisabled() }}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 52,
+  "onClick": "{{ js_TechnicalEvaluationController.proceedToNextStage() }}",
+  "originalBottomRow": 131,
+  "originalTopRow": 126,
+  "parentId": "0z9cw8pbaw",
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "Next →",
+  "topRow": 126,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ge7x3byr1w",
+  "widgetName": "btn_NextStage7"
+}

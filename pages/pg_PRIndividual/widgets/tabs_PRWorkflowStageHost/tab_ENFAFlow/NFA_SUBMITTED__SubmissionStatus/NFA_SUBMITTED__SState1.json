@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderRadius": "3px",
+  "bottomRow": 42.99999999998545,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.58rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": "{{ !!appsmith.store.nfaDraft?.approvers?.[1] }}",
+  "key": "mxiyi1x2pp",
+  "leftColumn": 43,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 33.800000000000004,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 30.1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 42.99999999998545,
+  "originalTopRow": 38.99999999998472,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "vabtvpz0ci",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "Pending",
+  "textAlign": "RIGHT",
+  "textColor": "#8A96A8",
+  "topRow": 38.99999999998472,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "sn7jfccti6",
+  "widgetName": "NFA_SUBMITTED__SState1"
+}

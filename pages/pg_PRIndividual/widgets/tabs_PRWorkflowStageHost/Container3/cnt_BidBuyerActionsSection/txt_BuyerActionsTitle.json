@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 2,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3,
+  "originalTopRow": 0,
+  "overflow": "NONE",
+  "parentId": "fiesxhfger",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "shouldTruncate": false,
+  "text": "<span style='font-size:12px;font-weight:800;color:#475569;letter-spacing:0.6px;text-transform:uppercase;font-family:Inter,sans-serif;'>BUYER ACTIONS</span>",
+  "textAlign": "LEFT",
+  "textType": "TEXT",
+  "topRow": 0,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "fnuo3bma0y",
+  "widgetName": "txt_BuyerActionsTitle"
+}

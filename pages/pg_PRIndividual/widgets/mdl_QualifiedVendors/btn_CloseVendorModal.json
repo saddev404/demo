@@ -1,0 +1,23 @@
+{
+  "bottomRow": 6,
+  "buttonColor": "#64748b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "cross",
+  "isVisible": true,
+  "leftColumn": 59,
+  "onClick": "{{ closeModal('mdl_QualifiedVendors'); }}",
+  "parentId": "ou17nh21os",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "topRow": 2,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "olgt2hgkcx",
+  "widgetName": "btn_CloseVendorModal"
+}

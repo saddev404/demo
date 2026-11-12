@@ -1,0 +1,23 @@
+{
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "v1a6atl2y6",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "text": "{{ \"Document Compliance — \" + js_TechnicalEvaluationController.getSelectedSupplierName() }}",
+  "textColor": "#0f172a",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "z69nzv7kfk",
+  "widgetName": "txt_DocComplianceTitle"
+}

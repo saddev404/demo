@@ -1,0 +1,17 @@
+{
+  "bottomRow": 7,
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 63,
+  "text": "Based on comparison sheet and business requirements, choose your next action.",
+  "textAlign": "LEFT",
+  "textColor": "#64748b",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "uxgsgol626",
+  "widgetName": "txt_WhatsNextSubtitle"
+}

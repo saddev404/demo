@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "#2563eb",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{ showModal('mdl_QualifiedVendors') }}",
+  "parentId": "o18pggmo1i",
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 45,
+  "text": "View vendor list ↗",
+  "topRow": 6,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ui0ekkq8k9",
+  "widgetName": "btn_ViewVendorList"
+}

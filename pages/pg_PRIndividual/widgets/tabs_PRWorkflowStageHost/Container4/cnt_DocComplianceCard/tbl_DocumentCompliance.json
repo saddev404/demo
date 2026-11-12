@@ -1,0 +1,194 @@
+{
+  "animateLoading": true,
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "canFreezeColumn": false,
+  "columnOrder": [
+    "categoryName",
+    "rating",
+    "documentsFound",
+    "documentsMissing",
+    "tqQueryStatus"
+  ],
+  "columnWidthMap": {
+    "categoryName": 220,
+    "documentsFound": 260,
+    "documentsMissing": 180,
+    "rating": 100,
+    "tqQueryStatus": 180
+  },
+  "defaultPageSize": 4,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.categoryName.computedValue"
+    },
+    {
+      "key": "primaryColumns.rating.computedValue"
+    },
+    {
+      "key": "primaryColumns.documentsFound.computedValue"
+    },
+    {
+      "key": "primaryColumns.documentsMissing.computedValue"
+    },
+    {
+      "key": "primaryColumns.tqQueryStatus.computedValue"
+    },
+    {
+      "key": "primaryColumns.tqQueryStatus.textColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "headerRowColor": "#f8fafc",
+  "headerTextColor": "#475569",
+  "isLoading": false,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": false,
+  "isVisibleSearch": false,
+  "key": "te_k_doc_comp",
+  "leftColumn": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 14.15625,
+  "parentId": "abbo04muur",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "categoryName": {
+      "alias": "categoryName",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_DocumentCompliance.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"categoryName\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "categoryName",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "CATEGORY NAME",
+      "originalId": "categoryName",
+      "textColor": "#0f172a",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 220
+    },
+    "documentsFound": {
+      "alias": "documentsFound",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_DocumentCompliance.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"documentsFound\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "documentsFound",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DOCUMENTS FOUND",
+      "originalId": "documentsFound",
+      "textColor": "#2563eb",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 260
+    },
+    "documentsMissing": {
+      "alias": "documentsMissing",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_DocumentCompliance.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"documentsMissing\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "documentsMissing",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DOCUMENTS MISSING",
+      "originalId": "documentsMissing",
+      "textColor": "#64748b",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 180
+    },
+    "rating": {
+      "alias": "rating",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_DocumentCompliance.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"rating\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "CENTER",
+      "id": "rating",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "RATING",
+      "originalId": "rating",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 100
+    },
+    "tqQueryStatus": {
+      "alias": "tqQueryStatus",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_DocumentCompliance.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"tqQueryStatus\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "tqQueryStatus",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "TQ QUERY STATUS",
+      "originalId": "tqQueryStatus",
+      "textColor": "{{tbl_DocumentCompliance.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tqQueryStatus\"] === \"Rejected\" ? \"#dc2626\" : \"#16a34a\"))}}",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 180
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "tableData": "{{ js_TechnicalEvaluationController.getComplianceTableData() }}",
+  "topRow": 6,
+  "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
+  "version": 2,
+  "widgetId": "ilpqlut9t2",
+  "widgetName": "tbl_DocumentCompliance"
+}

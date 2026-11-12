@@ -1,0 +1,53 @@
+{
+  "allowedFileTypes": "{{ [\".pdf\", \".doc\", \".docx\", \".msg\", \".eml\", \".jpg\", \".jpeg\", \".png\", \".xls\", \".xlsx\", \".csv\"] }}",
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 15.2,
+  "boxShadow": "none",
+  "buttonColor": "#FFFFFF",
+  "dynamicBindingPathList": [
+    {
+      "key": "allowedFileTypes"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "4vsb66q7vs",
+  "label": "{{ js_NFAController.getMandatorySupportingLabel(\"vendorCode\") }}",
+  "leftColumn": 43,
+  "maxFileSize": 25,
+  "maxNumFiles": "5",
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 17.9,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 7.5,
+  "parentId": "vcuhxyvbxn",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "selectedFiles": [],
+  "topRow": 11.1,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "7a3ongmrsf",
+  "widgetName": "NFA_MANDATORY_INFORMATION__FS1"
+}

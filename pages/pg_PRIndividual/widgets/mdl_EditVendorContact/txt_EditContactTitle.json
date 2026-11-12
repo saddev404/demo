@@ -1,0 +1,15 @@
+{
+  "bottomRow": 6,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentId": "h7opaae8pu",
+  "rightColumn": 62,
+  "text": "<span style=\"font-size: 18px; font-weight: 700; color: #0f172a;\">Edit Vendor Contact Details</span>",
+  "topRow": 2,
+  "type": "TEXT_WIDGET",
+  "widgetId": "qc2b9qx2ld",
+  "widgetName": "txt_EditContactTitle"
+}

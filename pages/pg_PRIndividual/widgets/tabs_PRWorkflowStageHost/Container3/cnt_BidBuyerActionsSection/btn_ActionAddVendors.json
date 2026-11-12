@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 10,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "buttonColor": "#0f172a",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_BidMonitoringController.onAddVendorsClick() }}",
+  "parentId": "fiesxhfger",
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "text": "👥  Add Vendors    ›",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "59iuhnd2hq",
+  "widgetName": "btn_ActionAddVendors"
+}

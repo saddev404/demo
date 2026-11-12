@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "y7mqqh03rr",
+  "leftColumn": 58,
+  "minWidth": 80,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{ js_NFAController.uploadDocument(\"technicalEvaluation\", \"Technical Evaluation Report\", NFA_DOCUMENT_UPLOAD__fp_TechnicalEvaluation.files) }}",
+  "parentColumnSpace": 7.5,
+  "parentId": "ii0xznjkqd",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "text": "Upload",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "n117brt6wh",
+  "widgetName": "NFA_DOCUMENT_UPLOAD__Upload_technicalEvaluation"
+}

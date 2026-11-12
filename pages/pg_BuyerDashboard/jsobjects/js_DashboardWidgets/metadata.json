@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6a716105b4570191a2f949fa_326d4b9e-76c3-402f-9d1b-831fa8257c85",
+  "id": "pg_BuyerDashboard_js_DashboardWidgets",
+  "unpublishedCollection": {
+    "name": "js_DashboardWidgets",
+    "pageId": "pg_BuyerDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "_BADGE_CONFIG",
+        "value": "{\n  OAARC_CHECK: {\n    bg: \"#fef3c7\",\n    text: \"#b45309\"\n  },\n  PR_CONSISTENCY_CHECK: {\n    bg: \"#e0e7ff\",\n    text: \"#4338ca\"\n  },\n  PR_CONSISTENCY_APPROVED: {\n    bg: \"#ecfdf5\",\n    text: \"#059669\"\n  },\n  PR_REJECTED: {\n    bg: \"#fef2f2\",\n    text: \"#dc2626\"\n  },\n  CLASS_OVERRIDDEN: {\n    bg: \"#faf5ff\",\n    text: \"#9333ea\"\n  },\n  ALLOC_DONE: {\n    bg: \"#fee2e2\",\n    text: \"#ef4444\"\n  },\n  VENDOR_RECOMMENDATION: {\n    bg: \"#fffbeb\",\n    text: \"#d97706\"\n  },\n  VENDOR_SELECTION: {\n    bg: \"#e0f2fe\",\n    text: \"#0284c7\"\n  },\n  MANUAL_ROUTE: {\n    bg: \"#fef2f2\",\n    text: \"#b91c1c\"\n  }\n}"
+      },
+      {
+        "name": "_DEFAULT_BADGE",
+        "value": "{\n  bg: \"#f3f4f6\",\n  text: \"#4b5563\"\n}"
+      }
+    ]
+  }
+}

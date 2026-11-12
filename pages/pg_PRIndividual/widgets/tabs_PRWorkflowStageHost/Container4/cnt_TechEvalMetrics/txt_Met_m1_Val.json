@@ -1,0 +1,19 @@
+{
+  "bottomRow": 8,
+  "fontSize": "0.9375rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 11,
+  "text": "RFP",
+  "textAlign": "CENTER",
+  "textColor": "#0f172a",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "3st5kiang5",
+  "widgetName": "txt_Met_m1_Val"
+}

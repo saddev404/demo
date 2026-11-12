@@ -1,0 +1,25 @@
+{
+  "bottomRow": 35,
+  "buttonColor": "#64748b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onClick": "{{ closeModal('mdl_AcceptPROptions'); }}",
+  "originalBottomRow": 35,
+  "originalTopRow": 30,
+  "parentId": "z3b3vnjup5",
+  "rightColumn": 32,
+  "text": "Cancel",
+  "topRow": 30,
+  "type": "BUTTON_WIDGET",
+  "widgetId": "ir8isi0rlx",
+  "widgetName": "btn_CancelAcceptRoute"
+}

@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "30x8euv940",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "👥  Invited Vendors",
+  "textColor": "#64748b",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "z41us403st",
+  "widgetName": "txt_TileInvitedIconLbl"
+}

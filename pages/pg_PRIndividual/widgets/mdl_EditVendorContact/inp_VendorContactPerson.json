@@ -1,0 +1,26 @@
+{
+  "bottomRow": 13,
+  "defaultText": "{{ appsmith.store.vendor_contact_person || 'Mr. Arjun Mehta' }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "inputType": "TEXT",
+  "label": "Contact Person Name",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#334155",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentId": "h7opaae8pu",
+  "placeholderText": "Enter full name",
+  "rightColumn": 62,
+  "topRow": 6,
+  "type": "INPUT_WIDGET_V2",
+  "widgetId": "rewt6c0bu1",
+  "widgetName": "inp_VendorContactPerson"
+}

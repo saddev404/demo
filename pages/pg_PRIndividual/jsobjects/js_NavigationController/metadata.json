@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6abe35bb5402c77f907169ec_3092ac6f-910e-4e1a-99e6-cbf28c05dbd7",
+  "id": "pg_PRIndividual_js_NavigationController",
+  "unpublishedCollection": {
+    "name": "js_NavigationController",
+    "pageId": "pg_PRIndividual",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "STAGES",
+        "value": "[{\n  id: 'oa_arc_check',\n  number: '01',\n  title: 'OA / ARC Check',\n  implemented: true\n}, {\n  id: 'consistency_check',\n  number: '02',\n  title: 'Consistency Check',\n  implemented: true\n}, {\n  id: 'vendor_recommendation',\n  number: '03',\n  title: 'Vendor Selection',\n  implemented: true\n}, {\n  id: 'rfp_generation',\n  number: '04',\n  title: 'RFP Generation',\n  implemented: true\n}, {\n  id: 'send_rfp',\n  number: '05',\n  title: 'Send RFP',\n  implemented: true\n}, {\n  id: 'bid_monitoring',\n  number: '06',\n  title: 'Bid Monitoring',\n  implemented: true\n}, {\n  id: 'technical_evaluation',\n  number: '07',\n  title: 'Technical Evaluation',\n  implemented: true\n}, {\n  id: 'commercial',\n  number: '08',\n  title: 'Commercial',\n  implemented: true\n}, {\n  id: 'negotiation',\n  number: '09',\n  title: 'Negotiation',\n  implemented: true\n}, {\n  id: 'enfa',\n  number: '10',\n  title: 'ENFA',\n  implemented: true\n}]"
+      },
+      {
+        "name": "STATUS_MAP",
+        "value": "{\n  'pr_rejected': 'consistency_check',\n  'oaarc_check': 'oa_arc_check',\n  'pr_consistency_check': 'consistency_check',\n  'alloc_done': 'consistency_check',\n  'pr_consistency_approved': 'vendor_recommendation',\n  'vendor_recommendation': 'vendor_recommendation',\n  'vendor_selection': 'rfp_generation',\n  'rfp_generation': 'rfp_generation',\n  'send_rfp': 'send_rfp',\n  'rfp_published': 'send_rfp',\n  'bid_monitoring': 'bid_monitoring',\n  'technical_evaluation': 'technical_evaluation',\n  'commercial': 'commercial',\n  'negotiation': 'negotiation',\n  'enfa': 'enfa',\n  'e_nfa': 'enfa',\n  'nfa_ariba': 'enfa'\n}"
+      }
+    ]
+  }
+}

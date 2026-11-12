@@ -1,0 +1,58 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 34,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 210,
+      "canExtend": false,
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "isCanvas": true,
+      "isVisible": true,
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 200,
+      "parentId": "4t50gzbwzk",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "rr10b3kd1u",
+      "widgetName": "Canvas_VendorContactGate"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "isCanvas": true,
+  "isVisible": "{{ !js_SendRfpController.isRfpCreated() }}",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 20,
+  "originalBottomRow": 34,
+  "originalTopRow": 13,
+  "parentId": "7nmvv62rr0",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "topRow": 13,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "4t50gzbwzk",
+  "widgetName": "cnt_VendorContactVerification"
+}

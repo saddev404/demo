@@ -1,0 +1,19 @@
+{
+  "bottomRow": 4,
+  "fontSize": "0.6875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 11,
+  "text": "EVENT TYPE",
+  "textAlign": "CENTER",
+  "textColor": "#64748b",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "pcoawvvq8p",
+  "widgetName": "txt_Met_m1_Lbl"
+}

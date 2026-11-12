@@ -1,0 +1,228 @@
+{
+  "accentColor": "#2563EB",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#E2E8F0",
+  "borderRadius": "8px",
+  "borderWidth": "1",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "cachedTableData": [
+    {
+      "Item / Lot": "Facade Panels",
+      "Suggested Decrement": "₹ 2,500",
+      "Suggested Start Price": "₹ 4,50,000"
+    },
+    {
+      "Item / Lot": "Structural Frames",
+      "Suggested Decrement": "₹ 2,000",
+      "Suggested Start Price": "₹ 3,20,000"
+    },
+    {
+      "Item / Lot": "Installation",
+      "Suggested Decrement": "₹ 1,000",
+      "Suggested Start Price": "₹ 2,10,000"
+    }
+  ],
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "6px",
+      "boxShadow": "none",
+      "buttonColor": "#2563EB"
+    }
+  },
+  "columnOrder": [
+    "Item / Lot",
+    "Suggested Start Price",
+    "Suggested Decrement"
+  ],
+  "columnWidthMap": {
+    "Item / Lot": 175,
+    "Suggested Decrement": 155,
+    "Suggested Start Price": 165
+  },
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 10,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "primaryColumns.Item / Lot.computedValue"
+    },
+    {
+      "key": "primaryColumns.Suggested Start Price.computedValue"
+    },
+    {
+      "key": "primaryColumns.Suggested Decrement.computedValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": false,
+  "endOfData": false,
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": false,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": false,
+  "isVisibleSearch": false,
+  "key": "f934a715af",
+  "label": "N7_JAItemSuggestedTable",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 120,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 34,
+  "originalTopRow": 6,
+  "parentColumnSpace": 19.5,
+  "parentId": "1uoopqtgn8",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "Item / Lot": {
+      "alias": "Item / Lot",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{currentRow[\"Item / Lot\"]}}",
+      "currencyCode": "INR",
+      "decimals": 0,
+      "enableFilter": false,
+      "enableSort": false,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "Item / Lot",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Item / Lot",
+      "notation": "standard",
+      "originalId": "Item / Lot",
+      "sticky": "",
+      "textColor": "#334155",
+      "textSize": "0.75rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 175
+    },
+    "Suggested Decrement": {
+      "alias": "Suggested Decrement",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{currentRow[\"Suggested Decrement\"]}}",
+      "currencyCode": "INR",
+      "decimals": 0,
+      "enableFilter": false,
+      "enableSort": false,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "Suggested Decrement",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Suggested Decrement",
+      "notation": "standard",
+      "originalId": "Suggested Decrement",
+      "sticky": "",
+      "textColor": "#334155",
+      "textSize": "0.75rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 155
+    },
+    "Suggested Start Price": {
+      "alias": "Suggested Start Price",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{currentRow[\"Suggested Start Price\"]}}",
+      "currencyCode": "INR",
+      "decimals": 0,
+      "enableFilter": false,
+      "enableSort": false,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "Suggested Start Price",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Suggested Start Price",
+      "notation": "standard",
+      "originalId": "Suggested Start Price",
+      "sticky": "",
+      "textColor": "#334155",
+      "textSize": "0.75rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 165
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": [
+    {
+      "Item / Lot": "Facade Panels",
+      "Suggested Decrement": "₹ 2,500",
+      "Suggested Start Price": "₹ 4,50,000"
+    },
+    {
+      "Item / Lot": "Structural Frames",
+      "Suggested Decrement": "₹ 2,000",
+      "Suggested Start Price": "₹ 3,20,000"
+    },
+    {
+      "Item / Lot": "Installation",
+      "Suggested Decrement": "₹ 1,000",
+      "Suggested Start Price": "₹ 2,10,000"
+    }
+  ],
+  "textSize": "0.75rem",
+  "topRow": 6,
+  "totalRecordsCount": 5,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "hmd97vncyw",
+  "widgetName": "N7_JAItemSuggestedTable"
+}

@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentId": "cs7t54vxi9",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "shouldTruncate": false,
+  "text": "{{ js_BidMonitoringController.getParticipationCardHtml() }}",
+  "textAlign": "LEFT",
+  "textType": "TEXT",
+  "topRow": 0,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "75clzzv358",
+  "widgetName": "txt_BidParticipationContent"
+}

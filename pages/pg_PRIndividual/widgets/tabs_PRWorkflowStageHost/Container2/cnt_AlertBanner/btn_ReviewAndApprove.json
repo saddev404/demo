@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "6px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#2563eb",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "shield-check",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ js_SendRfpController.isReviewAndApproveDisabled() }}",
+  "isLoading": false,
+  "isVisible": "{{ js_SendRfpController.isReviewAndApproveVisible() }}",
+  "leftColumn": 47,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(mdl_SendRFP_ApprovePublish.name);}}",
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
+  "parentId": "i68spz88s8",
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Please Review and Approve",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bouf8c3440",
+  "widgetName": "btn_ReviewAndApprove"
+}

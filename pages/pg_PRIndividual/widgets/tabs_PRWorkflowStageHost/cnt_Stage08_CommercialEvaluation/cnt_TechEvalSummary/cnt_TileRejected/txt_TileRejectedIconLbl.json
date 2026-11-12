@@ -1,0 +1,17 @@
+{
+  "bottomRow": 5,
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentId": "d3ytg23ic7",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "✕  Technically Rejected",
+  "textColor": "#dc2626",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "pvf9c2w5v5",
+  "widgetName": "txt_TileRejectedIconLbl"
+}

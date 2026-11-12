@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "6px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "jpistc1ibw",
+  "leftColumn": 43.5,
+  "minWidth": 80,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 43.5,
+  "mobileRightColumn": 50.9,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{storeValue('nfa_inner_page', 'nfa_document_upload')}}",
+  "parentColumnSpace": 7.5,
+  "parentId": "v9tx5k24jq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 50.9,
+  "text": "Back to Form",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kox31toclm",
+  "widgetName": "NFA_DOCUMENT_UPLOAD__BackForm"
+}

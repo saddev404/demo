@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 21,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.70rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "j0l19ohfb9",
+  "leftColumn": 13,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 31.5,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 25.3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 22,
+  "originalTopRow": 17,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "xf3yjef20c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.analysisStatus === \"FAILED\" ? \"Document analysis could not be completed. Please retry.\" : \"Your procurement documents are being processed. You may wait here or return to the Buyer Dashboard; when processing completes while you wait, the workflow will open Mandatory Information automatically.\" }}",
+  "textAlign": "CENTER",
+  "textColor": "#64748B",
+  "topRow": 17,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "rdy8n6ohul",
+  "widgetName": "NFA_DOCUMENT_ANALYSIS__AnalysisCopy"
+}

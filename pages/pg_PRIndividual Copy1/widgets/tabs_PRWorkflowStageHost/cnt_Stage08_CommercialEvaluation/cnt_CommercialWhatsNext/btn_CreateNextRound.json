@@ -1,0 +1,32 @@
+{
+  "borderRadius": "6px",
+  "bottomRow": 23,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "tooltip"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": "{{ js_CommercialEvaluationController.isCreateNextDisabled() }}",
+  "isVisible": true,
+  "leftColumn": 25,
+  "onClick": "{{ js_CommercialEvaluationController.handleCreateNextRound() }}",
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 40,
+  "text": "Create Next Round",
+  "tooltip": "{{ js_CommercialEvaluationController.getCreateNextTooltip() }}",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fy4t1dtb11",
+  "widgetName": "btn_CreateNextRound"
+}

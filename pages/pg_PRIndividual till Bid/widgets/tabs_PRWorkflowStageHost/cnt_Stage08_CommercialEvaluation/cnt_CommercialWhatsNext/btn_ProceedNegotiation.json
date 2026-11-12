@@ -1,0 +1,18 @@
+{
+  "borderRadius": "6px",
+  "bottomRow": 23,
+  "buttonColor": "#2563eb",
+  "buttonVariant": "SECONDARY",
+  "isDisabled": true,
+  "isVisible": true,
+  "leftColumn": 46,
+  "parentId": "fjsc6kl25s",
+  "rightColumn": 61,
+  "text": "Proceed to Negotiation",
+  "tooltip": "This is currently under design",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vzs71kinkr",
+  "widgetName": "btn_ProceedNegotiation"
+}

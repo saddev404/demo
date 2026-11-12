@@ -1,0 +1,72 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "{{ js_SendRfpController.getAlertBanner().bg }}",
+  "borderColor": "{{ js_SendRfpController.getAlertBanner().border }}",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 43,
+  "bottomRowBeforeCollapse": 43,
+  "boxShadow": "none",
+  "children": [
+    {
+      "animateLoading": true,
+      "bottomRow": 90,
+      "boxShadow": "none",
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "needsErrorInfo": false,
+      "parentId": "roueeybye2",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "i68spz88s8",
+      "widgetName": "Canvas_Alert_mapg908fo7Copy"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "{{ js_SendRfpController.isRfpCreated() }}",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "needsErrorInfo": false,
+  "originalBottomRow": 43,
+  "originalTopRow": 34,
+  "parentId": "7nmvv62rr0",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "topRow": 34,
+  "topRowBeforeCollapse": 34,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "roueeybye2",
+  "widgetName": "cnt_AlertBanner"
+}

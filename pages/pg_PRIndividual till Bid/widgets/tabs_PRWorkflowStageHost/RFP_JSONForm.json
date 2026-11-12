@@ -1,0 +1,1265 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": false,
+  "backgroundColor": "#ffffff",
+  "borderColor": "#dbe4ef",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 105,
+  "bottomRowBeforeCollapse": 105,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.children.__array_item__.children.description.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.children.__array_item__.children.description.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.children.__array_item__.children.quantity.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.children.__array_item__.children.quantity.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.children.__array_item__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BOQ.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.entity_year.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.entity_year.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.entity_year.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.total_pr_crores.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.total_pr_crores.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.total_pr_crores.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_Entity.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_Entity.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_Entity.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_NAME.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_NAME.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_NAME.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_ADDRESS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_ADDRESS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.GMR_ENTITY_ADDRESS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Designation.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Designation.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Buyer_Designation.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email_ID.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email_ID.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email_ID.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_MOBILE_NUMBER.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_MOBILE_NUMBER.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_MOBILE_NUMBER.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_PHONE_NUMBER.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_PHONE_NUMBER.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_PHONE_NUMBER.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_ADDRESS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_ADDRESS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BUYER_ADDRESS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.POA_NUMBER.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.POA_NUMBER.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.POA_NUMBER.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NAME_OF_WORK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NAME_OF_WORK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NAME_OF_WORK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.FORM_NO.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.FORM_NO.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.FORM_NO.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.UNDERTAKING_FORM.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.UNDERTAKING_FORM.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.UNDERTAKING_FORM.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Operator_Code.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Operator_Code.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Operator_Code.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Payment_Terms.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Payment_Terms.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Payment_Terms.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Defect_Liability.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Defect_Liability.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Defect_Liability.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Secured_Advance.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Secured_Advance.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Secured_Advance.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Retention_Money_Release_Bank_Guarantee.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Retention_Money_Release_Bank_Guarantee.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Retention_Money_Release_Bank_Guarantee.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Advance_Payment_Bank_Guarantee.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Advance_Payment_Bank_Guarantee.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Advance_Payment_Bank_Guarantee.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Performance_Bank_Guarantee.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Performance_Bank_Guarantee.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Performance_Bank_Guarantee.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Work_Duration.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Work_Duration.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Work_Duration.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penalty.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penalty.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penalty.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.LIQUIDATED_DAMAGE.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.LIQUIDATED_DAMAGE.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.LIQUIDATED_DAMAGE.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.line_amount.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.line_amount.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.line_amount.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.completion_period.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.completion_period.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.completion_period.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Bid_manager.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Bid_manager.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Bid_manager.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BID_VALIDITY_PERIOD.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BID_VALIDITY_PERIOD.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BID_VALIDITY_PERIOD.borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": "{{ \n  [\"RFQ_DATA_GENERATED\", \"BUYER_REVIEW\", \"FAILED\"].includes(appsmith.store.selected_vendor_group?.STATUS) \n}}\n",
+  "key": "3a9cf70376",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 90,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "onSubmit": "{{showModal(mdl_RfqTemplateSubmit.name);}}",
+  "originalBottomRow": 105,
+  "originalTopRow": 41,
+  "parentColumnSpace": 19.125,
+  "parentId": "0g2x3hs1fb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Save Draft",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "Advance_Payment_Bank_Guarantee": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Advance Payment Bank Guarantee",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Advance Payment Bank Guarantee\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Advance_Payment_Bank_Guarantee",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Advance Payment Bank Guarantee",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Advance Payment Bank Guarantee",
+          "position": 26,
+          "sourceData": "10% of contract value, valid for the full contract duration"
+        },
+        "BID_VALIDITY_PERIOD": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "BID_VALIDITY_PERIOD",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BID_VALIDITY_PERIOD))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "BID_VALIDITY_PERIOD",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "BID VALIDITY PERIOD",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BID_VALIDITY_PERIOD",
+          "position": 29,
+          "sourceData": "90 days"
+        },
+        "BOQ": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "BOQ",
+          "backgroundColor": "#FAFAFA",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {
+            "__array_item__": {
+              "accessor": "__array_item__",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "description": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+                  "accessor": "description",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "description",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Description",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "description",
+                  "position": 0,
+                  "sourceData": "COUPLING MAGNETIC HJMPF-GR-12/33"
+                },
+                "quantity": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+                  "accessor": "quantity",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "number",
+                  "fieldType": "Number Input",
+                  "iconAlign": "left",
+                  "identifier": "quantity",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Quantity",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "quantity",
+                  "position": 2,
+                  "sourceData": 1
+                }
+              },
+              "dataType": "object",
+              "fieldType": "Object",
+              "identifier": "__array_item__",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": true,
+              "label": "Array Item",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "__array_item__",
+              "position": -1,
+              "sourceData": {
+                "description": "COUPLING MAGNETIC HJMPF-GR-12/33",
+                "material_code": 11506140007,
+                "quantity": 1,
+                "unit_rate": 1000000,
+                "uom": "NO"
+              }
+            }
+          },
+          "dataType": "array",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BOQ))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Array",
+          "identifier": "BOQ",
+          "isCollapsible": true,
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "BOQ",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BOQ",
+          "position": 30,
+          "sourceData": [
+            {
+              "description": "COUPLING MAGNETIC HJMPF-GR-12/33",
+              "material_code": 11506140007,
+              "quantity": 1,
+              "unit_rate": 1000000,
+              "uom": "NO"
+            }
+          ]
+        },
+        "BUYER_ADDRESS": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "BUYER_ADDRESS",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BUYER_ADDRESS))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "BUYER_ADDRESS",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "BUYER ADDRESS",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BUYER_ADDRESS",
+          "position": 15,
+          "sourceData": "New Delhi"
+        },
+        "BUYER_MOBILE_NUMBER": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "BUYER_MOBILE_NUMBER",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BUYER_MOBILE_NUMBER))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "BUYER_MOBILE_NUMBER",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "BUYER MOBILE NUMBER",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BUYER_MOBILE_NUMBER",
+          "position": 8,
+          "sourceData": 9876543210
+        },
+        "BUYER_PHONE_NUMBER": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "BUYER_PHONE_NUMBER",
+          "allowDialCodeChange": false,
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BUYER_PHONE_NUMBER))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "dialCode": "+91",
+          "fieldType": "Phone Number Input",
+          "identifier": "BUYER_PHONE_NUMBER",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "BUYER PHONE NUMBER",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BUYER_PHONE_NUMBER",
+          "position": 9,
+          "sourceData": 9876543210
+        },
+        "Bid_manager": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Bid_manager",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Bid_manager))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Bid_manager",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Bid Manager",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Bid_manager",
+          "position": 28,
+          "sourceData": "Hemalatha"
+        },
+        "Buyer_Designation": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Buyer Designation",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Buyer Designation\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Buyer_Designation",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Buyer Designation",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Buyer Designation",
+          "position": 11,
+          "sourceData": "Buyer"
+        },
+        "Buyer_Name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Buyer Name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Buyer Name\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Buyer_Name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Buyer Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Buyer Name",
+          "position": 10,
+          "sourceData": "Anwar Husain"
+        },
+        "Defect_Liability": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Defect Liability",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Defect Liability\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Defect_Liability",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Defect Liability",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Defect Liability",
+          "position": 23,
+          "sourceData": "12 months DLP for hardware defects post installation"
+        },
+        "Email_ID": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Email ID",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Email ID\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Email Input",
+          "iconAlign": "left",
+          "identifier": "Email_ID",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Email ID",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Email ID",
+          "position": 12,
+          "sourceData": "anwarhusain@gmrgroup.in"
+        },
+        "FORM_NO": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "FORM_NO",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.FORM_NO))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "FORM_NO",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "FORM NO",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "FORM_NO",
+          "position": 13,
+          "sourceData": 10
+        },
+        "GMR_ENTITY_ADDRESS": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "GMR_ENTITY_ADDRESS",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.GMR_ENTITY_ADDRESS))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "GMR_ENTITY_ADDRESS",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "GMR ENTITY ADDRESS",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "GMR_ENTITY_ADDRESS",
+          "position": 9,
+          "sourceData": "Dhenkanal"
+        },
+        "GMR_ENTITY_NAME": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "GMR_ENTITY_NAME",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.GMR_ENTITY_NAME))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "GMR_ENTITY_NAME",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "GMR ENTITY NAME",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "GMR_ENTITY_NAME",
+          "position": 8,
+          "sourceData": "GMR Kamalanga Energy Limited"
+        },
+        "GMR_Entity": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "GMR_Entity",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.GMR_Entity))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "GMR_Entity",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "GMR Entity",
+          "labelTextSize": "0.875rem",
+          "maxChars": "17",
+          "originalIdentifier": "GMR_Entity",
+          "position": 7,
+          "sourceData": "DIAL"
+        },
+        "LIQUIDATED_DAMAGE": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "LIQUIDATED_DAMAGE",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.LIQUIDATED_DAMAGE))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "LIQUIDATED_DAMAGE",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "LIQUIDATED DAMAGE",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "LIQUIDATED_DAMAGE",
+          "position": 31,
+          "sourceData": "No"
+        },
+        "NAME_OF_WORK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "NAME OF WORK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"NAME OF WORK\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "NAME_OF_WORK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NAME OF WORK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NAME OF WORK",
+          "position": 17,
+          "sourceData": "Facility Management Services"
+        },
+        "Operator_Code": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Operator Code",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Operator Code\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Operator_Code",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Operator Code",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Operator Code",
+          "position": 20,
+          "sourceData": "PLANT-2300"
+        },
+        "POA_NUMBER": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "POA_NUMBER",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.POA_NUMBER))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "POA_NUMBER",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "POA NUMBER",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "POA_NUMBER",
+          "position": 16,
+          "sourceData": "Form no 2"
+        },
+        "Payment_Terms": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Payment Terms",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Payment Terms\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Payment_Terms",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Payment Terms",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Payment Terms",
+          "position": 22,
+          "sourceData": "Advance Payment"
+        },
+        "Penalty": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Penalty",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Penalty))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Penalty",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Penalty",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Penalty",
+          "position": 29,
+          "sourceData": "Yes"
+        },
+        "Performance_Bank_Guarantee": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Performance Bank Guarantee",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Performance Bank Guarantee\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Performance_Bank_Guarantee",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Performance Bank Guarantee",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Performance Bank Guarantee",
+          "position": 27,
+          "sourceData": "5% of contract value, valid till Defect Liability Period + 3 months"
+        },
+        "Retention_Money_Release_Bank_Guarantee": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Retention Money Release Bank Guarantee",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Retention Money Release Bank Guarantee\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Retention_Money_Release_Bank_Guarantee",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Retention Money Release Bank Guarantee",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Retention Money Release Bank Guarantee",
+          "position": 25,
+          "sourceData": "5% of contract value, valid up to Defect Liability Period + 3 months"
+        },
+        "Secured_Advance": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Secured Advance",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Secured Advance\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Secured_Advance",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Secured Advance",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Secured Advance",
+          "position": 24,
+          "sourceData": "75% of the value of materials brought to site, against Bank Guarantee"
+        },
+        "UNDERTAKING_FORM": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "UNDERTAKING_FORM",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.UNDERTAKING_FORM))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "UNDERTAKING_FORM",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "UNDERTAKING FORM",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "UNDERTAKING_FORM",
+          "position": 19,
+          "sourceData": "Form no 5"
+        },
+        "Work_Duration": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "Work Duration",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Work Duration\"]))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Work_Duration",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Work Duration",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Work Duration",
+          "position": 28,
+          "sourceData": "Delivery within 4 weeks from PO date"
+        },
+        "completion_period": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "completion_period",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.completion_period))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "completion_period",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Completion Period",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "completion_period",
+          "position": 36,
+          "sourceData": "Delivery within 4 weeks from PO date"
+        },
+        "entity_year": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "entity_year",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.entity_year))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "entity_year",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Entity Year",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "entity_year",
+          "position": 5,
+          "sourceData": "DIAL"
+        },
+        "line_amount": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "line_amount",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.line_amount))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "line_amount",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Line Amount",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "line_amount",
+          "position": 35,
+          "sourceData": 1000000
+        },
+        "total_pr_crores": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "accessor": "total_pr_crores",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.total_pr_crores))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "total_pr_crores",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Total Pr Crores",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "total_pr_crores",
+          "position": 6,
+          "sourceData": 0.1
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(RFP_JSONForm.sourceData, RFP_JSONForm.formData, RFP_JSONForm.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "AMOUNT": "__AUTO_AMOUNT__",
+        "Advance Payment Bank Guarantee": "10% of contract value, valid for the full contract duration",
+        "BOQ": [
+          {
+            "description": "COUPLING MAGNETIC HJMPF-GR-12/33",
+            "material_code": 11506140007,
+            "quantity": 1,
+            "unit_rate": 1000000,
+            "uom": "NO"
+          }
+        ],
+        "BUYER_ADDRESS": "New Delhi",
+        "BUYER_MOBILE_NUMBER": 9876543210,
+        "BUYER_PHONE_NUMBER": 9876543210,
+        "Buyer Designation": "Buyer",
+        "Buyer Name": "Anwar Husain",
+        "CURRENT_DATE": "__AUTO__",
+        "Defect Liability": "12 months DLP for hardware defects post installation",
+        "Email ID": "anwarhusain@gmrgroup.in",
+        "FORM_NO": 10,
+        "GMR_ENTITY_ADDRESS": "Dhenkanal",
+        "GMR_ENTITY_NAME": "GMR Kamalanga Energy Limited",
+        "GMR_Entity": "DIAL",
+        "Identification number": 8000077264,
+        "LIQUIDATED_DAMAGE": "No",
+        "NAME OF WORK": "Facility Management Services",
+        "Operator Code": "PLANT-2300",
+        "POA_NUMBER": "Form no 2",
+        "PR_ID": "E2683460-A81E-4FB7-AE80-91A9B51C5F28",
+        "PR_Number": 8000077264,
+        "Payment Terms": "Advance Payment",
+        "Penalty": "Yes",
+        "Performance Bank Guarantee": "5% of contract value, valid till Defect Liability Period + 3 months",
+        "RFP_SEQUENCE_NUMBER": "__AUTO_SEQUENCE__",
+        "Retention Money Release Bank Guarantee": "5% of contract value, valid up to Defect Liability Period + 3 months",
+        "Secured Advance": "75% of the value of materials brought to site, against Bank Guarantee",
+        "UNDERTAKING_FORM": "Form no 5",
+        "URL": "https://gmrgroup.com",
+        "Work Duration": "Delivery within 4 weeks from PO date",
+        "completion_period": "Delivery within 4 weeks from PO date",
+        "entity_year": "DIAL",
+        "group_id": 33,
+        "group_name": "Tier-1 OEM & High Reliability Direct Procurement",
+        "line_amount": 1000000,
+        "total_pr_crores": 0.1
+      }
+    }
+  },
+  "scrollContents": true,
+  "shouldScrollContents": true,
+  "showReset": false,
+  "sourceData": "{{ appsmith.store.selected_vendor_group?.parsedRfqData || {} }}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#3b82f6",
+    "buttonVariant": "PRIMARY",
+    "placement": "CENTER"
+  },
+  "title": "RFQ Data Review",
+  "topRow": 41,
+  "topRowBeforeCollapse": 41,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "65jqr6tkf8",
+  "widgetName": "RFP_JSONForm"
+}

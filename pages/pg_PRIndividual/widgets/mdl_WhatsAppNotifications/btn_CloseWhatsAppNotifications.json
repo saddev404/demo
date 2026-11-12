@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "4px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "btn_wa_close_key",
+  "leftColumn": 58,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 58,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{ closeModal('mdl_WhatsAppNotifications') }}",
+  "parentId": "ziq1f8yj63",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "lnouptl02c",
+  "widgetName": "btn_CloseWhatsAppNotifications"
+}

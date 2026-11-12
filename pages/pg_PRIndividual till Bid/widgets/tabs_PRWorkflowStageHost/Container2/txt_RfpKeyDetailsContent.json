@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "bottomRow": 52,
+  "bottomRowBeforeCollapse": 51,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": "{{ js_SendRfpController.isRfpCreated() }}",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "needsErrorInfo": false,
+  "originalBottomRow": 52,
+  "originalTopRow": 44,
+  "overflow": "NONE",
+  "parentId": "qohzhrfeoj",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "shouldTruncate": false,
+  "text": "{{ js_SendRfpController.getKeyDetailsHtml() }}",
+  "textAlign": "LEFT",
+  "textType": "TEXT",
+  "topRow": 44,
+  "topRowBeforeCollapse": 43,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "a1kfula0i1",
+  "widgetName": "txt_RfpKeyDetailsContent"
+}

@@ -1,0 +1,15 @@
+{
+  "bottomRow": 17,
+  "fontSize": "0.8rem",
+  "isVisible": true,
+  "leftColumn": 46,
+  "parentId": "jez9sf5uk5",
+  "rightColumn": 63,
+  "text": "Proceed with vendor for detailed negotiation.",
+  "textColor": "#64748b",
+  "topRow": 11,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "gd7szngoit",
+  "widgetName": "txt_NegotiationDesc"
+}

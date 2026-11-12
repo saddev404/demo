@@ -1,0 +1,45 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "canEscapeKeyClose": true,
+  "canOutsideClickClose": true,
+  "children": [
+    {
+      "bottomRow": 590,
+      "canExtend": true,
+      "dynamicBindingPathList": [],
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 730,
+      "parentColumnSpace": 1,
+      "parentId": "iumotir0za",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 486,
+      "shouldScrollContents": false,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "rdz8fecaog",
+      "widgetName": "Canvas_Modal_QualifiedVendors"
+    }
+  ],
+  "detachFromLayout": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "height": 590,
+  "isCanvas": true,
+  "isVisible": false,
+  "minHeight": 520,
+  "parentId": "0",
+  "shouldScrollContents": true,
+  "type": "MODAL_WIDGET",
+  "version": 2,
+  "widgetId": "iumotir0za",
+  "widgetName": "mdl_QualifiedVendors",
+  "width": 1235
+}

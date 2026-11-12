@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "6px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qgvhrpb09w",
+  "leftColumn": 2,
+  "minWidth": 80,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{storeValue('nfa_inner_page', 'nfa_review')}}",
+  "parentColumnSpace": 7.5,
+  "parentId": "c4nx69ojpq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 14,
+  "text": "←  BACK TO EDIT\nNFA",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5svccvn2wj",
+  "widgetName": "NFA_APPROVER_CONFIRMATION__BackNFA"
+}

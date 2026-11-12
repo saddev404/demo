@@ -1,0 +1,19 @@
+{
+  "bottomRow": 8,
+  "fontSize": "0.9375rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 53,
+  "parentId": "6w8m93qtcv",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "6",
+  "textAlign": "CENTER",
+  "textColor": "#059669",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ay71h81sev",
+  "widgetName": "txt_Met_m6_Val"
+}

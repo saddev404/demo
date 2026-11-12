@@ -1,0 +1,24 @@
+{
+  "bottomRow": 8,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "fontSize": "0.9375rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 22,
+  "parentId": "xqhv30kwx1",
+  "renderMode": "CANVAS",
+  "rightColumn": 33,
+  "text": "{{ js_TechnicalEvaluationController.getStatusBadgeText() }}",
+  "textAlign": "CENTER",
+  "textColor": "#2563eb",
+  "topRow": 4,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "muz3xva17w",
+  "widgetName": "txt_Met_m3_Val"
+}

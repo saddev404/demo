@@ -1,0 +1,69 @@
+{
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "0px",
+  "borderWidth": "",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "defaultModel": "{{js_DashboardWidgets.getDashboardTilesModel()}}\n ",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTileClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTileClick"
+    }
+  ],
+  "events": [
+    "onTileClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "gu9xvhpdb6",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 64,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "onTileClick": "{{ storeValue('tileFilter', cwdg_DashboardTiles.model.clickedFilter) }}",
+  "originalBottomRow": 54,
+  "originalTopRow": 23,
+  "parentColumnSpace": 26.890625,
+  "parentId": "hoi6w1qqtt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "body, html {\n  margin: 0;\n  padding: 0;\n  overflow: hidden; /* Hide scrollbars in Appsmith iframe */\n}\n\n.dashboard-container {\n  display: grid;\n  width: 100%;\n  padding: 8px;\n  box-sizing: border-box;\n  font-family: \"Segoe UI\", system-ui, -apple-system, sans-serif;\n}\n\n.dashboard-tile {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  padding: 16px 20px;\n  border-radius: 8px;\n  background-color: #ffffff;\n  border: 1px solid #e2e8f0;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);\n  cursor: pointer;\n  transition: all 0.2s ease-in-out;\n  user-select: none;\n  /* Removed height: 100% so tile perfectly wraps content without stretching */\n}\n\n.dashboard-tile.has-subtiles {\n  grid-row: span 2;\n}\n\n.dashboard-tile:hover {\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n  border-color: #cbd5e1;\n}\n\n.tile-header-container {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  width: 100%;\n}\n\n.tile-info {\n  display: flex;\n  flex-direction: column;\n}\n\n.tile-name {\n  font-size: 0.75rem;\n  font-weight: 700;\n  color: #64748b;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  margin-bottom: 4px;\n}\n\n.tile-count {\n  font-size: 1.8rem;\n  font-weight: 700;\n  color: #1e293b;\n  line-height: 1;\n  margin-bottom: 12px;\n}\n\n.tile-sequence-badge {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background-color: #f1f5f9;\n  color: #64748b;\n  font-size: 0.75rem;\n  font-weight: 600;\n  flex-shrink: 0;\n}\n\n.dashboard-tile.is-selected {\n  border-color: #3b82f6; /* Blue border */\n  background-color: #f0f9ff; /* Light blue background */\n  box-shadow: 0 0 0 1px #3b82f6; /* Outline effect */\n}\n\n/* SUB-TILES STYLING */\n.sub-tiles-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px dashed #e2e8f0;\n  width: 100%;\n}\n\n.sub-tile {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  padding: 10px 12px;\n  background-color: #f8fafc;\n  border: 1px solid #e2e8f0;\n  border-radius: 4px;\n  transition: border-color 0.2s ease;\n}\n\n.sub-tile:hover {\n  border-color: #cbd5e1;\n  background-color: #f1f5f9;\n}\n\n.sub-tile.is-selected {\n  border-color: #3b82f6;\n  background-color: #eff6ff;\n  box-shadow: 0 0 0 1px #3b82f6;\n}\n\n.sub-tile-name {\n  font-size: 0.75rem;\n  font-weight: 500;\n  color: #64748b;\n  margin-bottom: 4px;\n}\n\n.sub-tile-count {\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: #1e293b;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from \"https://esm.sh/react@18.2.0\";\nimport ReactDOM from \"https://esm.sh/react-dom@18.2.0\";\nfunction App() {\n  const [model, setModel] = React.useState(appsmith.model || {});\n  React.useEffect(() => {\n    const handleModelChange = newModel => {\n      if (newModel) setModel(newModel);\n    };\n    appsmith.onModelChange(handleModelChange);\n  }, []);\n  const handleTileClick = (filterValue, e) => {\n    if (e) e.stopPropagation();\n    if (filterValue) {\n      if (appsmith.updateModel) {\n        // Toggle logic: If clicking the already selected filter, deselect it (empty string)\n        const newFilter = model.selectedFilter === filterValue ? \"\" : filterValue;\n        appsmith.updateModel({\n          clickedFilter: newFilter\n        });\n      }\n      if (appsmith.triggerEvent) {\n        appsmith.triggerEvent(\"onTileClick\");\n      }\n    }\n  };\n  if (!model.tiles || !Array.isArray(model.tiles)) {\n    return /*#__PURE__*/React.createElement(\"div\", {\n      style: {\n        padding: \"20px\",\n        textAlign: \"center\",\n        fontFamily: \"system-ui, sans-serif\",\n        color: \"#64748b\"\n      }\n    }, \"Loading Dashboard Metrics...\");\n  }\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: \"dashboard-container\",\n    style: {\n      gridTemplateColumns: `repeat(${model.layout?.columns || 4}, 1fr)`,\n      gridAutoRows: \"130px\",\n      // Fixed height so span 2 works without breaking rows\n      gap: model.layout?.gap || \"20px\"\n    }\n  }, [...model.tiles].sort((a, b) => (a.SortOrder || 0) - (b.SortOrder || 0)).map(tile => /*#__PURE__*/React.createElement(\"div\", {\n    key: tile.FilterValue || tile.TileName,\n    className: `dashboard-tile ${tile.SubTiles?.length > 0 ? 'has-subtiles' : ''} ${model.selectedFilter === tile.FilterValue ? 'is-selected' : ''}`,\n    onClick: e => handleTileClick(tile.FilterValue, e),\n    style: {\n      backgroundColor: tile.BgColor,\n      color: tile.TextColor\n    }\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tile-header-container\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tile-info\"\n  }, tile.Icon && /*#__PURE__*/React.createElement(\"span\", {\n    className: \"tile-icon\",\n    dangerouslySetInnerHTML: {\n      __html: tile.Icon\n    }\n  }), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tile-name\"\n  }, tile.TileName), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tile-count\"\n  }, tile.TileCount)), tile.SortOrder && /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tile-sequence-badge\"\n  }, tile.SortOrder)), tile.SubTiles && tile.SubTiles.length > 0 && /*#__PURE__*/React.createElement(\"div\", {\n    className: \"sub-tiles-container\"\n  }, tile.SubTiles.map(sub => /*#__PURE__*/React.createElement(\"div\", {\n    key: sub.FilterValue || sub.TileName,\n    className: `sub-tile ${model.selectedFilter === sub.FilterValue ? 'is-selected' : ''}`,\n    onClick: e => handleTileClick(sub.FilterValue, e)\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"sub-tile-name\"\n  }, sub.TileName), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"sub-tile-count\"\n  }, sub.TileCount)))))));\n}\nappsmith.onReady(() => {\n  ReactDOM.render(/*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 14,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "body, html {\n  margin: 0;\n  padding: 0;\n  overflow: hidden; /* Hide scrollbars in Appsmith iframe */\n}\n \n.dashboard-container {\n  display: grid;\n  width: 100%;\n  padding: 8px;\n  box-sizing: border-box;\n  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;\n}\n \n.dashboard-tile {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  padding: 16px 20px;\n  border-radius: 8px;\n  background-color: #ffffff;\n  border: 1px solid #e2e8f0;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);\n  cursor: pointer;\n  transition: all 0.2s ease-in-out;\n  user-select: none;\n  /* Removed height: 100% so tile perfectly wraps content without stretching */\n}\n \n.dashboard-tile.has-subtiles {\n  grid-row: span 2;\n}\n \n.dashboard-tile:hover {\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n  border-color: #cbd5e1;\n}\n \n.tile-header-container {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  width: 100%;\n}\n \n.tile-info {\n  display: flex;\n  flex-direction: column;\n}\n \n.tile-name {\n  font-size: 0.75rem;\n  font-weight: 700;\n  color: #64748b;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  margin-bottom: 4px;\n}\n \n.tile-count {\n  font-size: 1.8rem;\n  font-weight: 700;\n  color: #1e293b;\n  line-height: 1;\n  margin-bottom: 12px;\n}\n \n.tile-sequence-badge {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background-color: #f1f5f9;\n  color: #64748b;\n  font-size: 0.75rem;\n  font-weight: 600;\n  flex-shrink: 0;\n}\n \n.dashboard-tile.is-selected {\n  border-color: #3b82f6; /* Blue border */\n  background-color: #f0f9ff; /* Light blue background */\n  box-shadow: 0 0 0 1px #3b82f6; /* Outline effect */\n}\n \n/* SUB-TILES STYLING */\n.sub-tiles-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px dashed #e2e8f0;\n  width: 100%;\n}\n \n.sub-tile {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  padding: 10px 12px;\n  background-color: #f8fafc;\n  border: 1px solid #e2e8f0;\n  border-radius: 4px;\n  transition: border-color 0.2s ease;\n}\n \n.sub-tile:hover {\n  border-color: #cbd5e1;\n  background-color: #f1f5f9;\n}\n \n.sub-tile.is-selected {\n  border-color: #3b82f6;\n  background-color: #eff6ff;\n  box-shadow: 0 0 0 1px #3b82f6;\n}\n \n.sub-tile-name {\n  font-size: 0.75rem;\n  font-weight: 500;\n  color: #64748b;\n  margin-bottom: 4px;\n}\n \n.sub-tile-count {\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: #1e293b;\n}\n ",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from \"https://esm.sh/react@18.2.0\";\nimport ReactDOM from \"https://esm.sh/react-dom@18.2.0\";\n \nfunction App() {\n  const [model, setModel] = React.useState(appsmith.model || {});\n \n  React.useEffect(() => {\n    const handleModelChange = (newModel) => {\n      if (newModel) setModel(newModel);\n    };\n    appsmith.onModelChange(handleModelChange);\n  }, []);\n \n  const handleTileClick = (filterValue, e) => {\n    if (e) e.stopPropagation();\n    if (filterValue) {\n      if (appsmith.updateModel) {\n        // Toggle logic: If clicking the already selected filter, deselect it (empty string)\n        const newFilter = model.selectedFilter === filterValue ? \"\" : filterValue;\n        appsmith.updateModel({ clickedFilter: newFilter });\n      }\n      if (appsmith.triggerEvent) {\n        appsmith.triggerEvent(\"onTileClick\");\n      }\n    }\n  };\n \n  if (!model.tiles || !Array.isArray(model.tiles)) {\n    return (\n      <div style={{ padding: \"20px\", textAlign: \"center\", fontFamily: \"system-ui, sans-serif\", color: \"#64748b\" }}>\n        Loading Dashboard Metrics...\n      </div>\n    );\n  }\n \n  return (\n    <div\n      className=\"dashboard-container\"\n      style={{\n        gridTemplateColumns: `repeat(${model.layout?.columns || 4}, 1fr)`,\n        gridAutoRows: \"130px\", // Fixed height so span 2 works without breaking rows\n        gap: model.layout?.gap || \"20px\"\n      }}\n    >\n      {[...model.tiles].sort((a, b) => (a.SortOrder || 0) - (b.SortOrder || 0)).map((tile) => (\n        <div\n          key={tile.FilterValue || tile.TileName}\n          className={`dashboard-tile ${tile.SubTiles?.length > 0 ? 'has-subtiles' : ''} ${model.selectedFilter === tile.FilterValue ? 'is-selected' : ''}`}\n          onClick={(e) => handleTileClick(tile.FilterValue, e)}\n          style={{ backgroundColor: tile.BgColor, color: tile.TextColor }}\n        >\n          <div className=\"tile-header-container\">\n            <div className=\"tile-info\">\n              {tile.Icon && <span className=\"tile-icon\" dangerouslySetInnerHTML={{ __html: tile.Icon }}></span>}\n              <div className=\"tile-name\">{tile.TileName}</div>\n              <div className=\"tile-count\">{tile.TileCount}</div>\n            </div>\n            {tile.SortOrder && (\n              <div className=\"tile-sequence-badge\">\n                {tile.SortOrder}\n              </div>\n            )}\n          </div>\n         \n          {/* SUB-TILES RENDER BLOCK */}\n          {tile.SubTiles && tile.SubTiles.length > 0 && (\n            <div className=\"sub-tiles-container\">\n              {tile.SubTiles.map((sub) => (\n                <div\n                  key={sub.FilterValue || sub.TileName}\n                  className={`sub-tile ${model.selectedFilter === sub.FilterValue ? 'is-selected' : ''}`}\n                  onClick={(e) => handleTileClick(sub.FilterValue, e)}\n                >\n                  <div className=\"sub-tile-name\">{sub.TileName}</div>\n                  <div className=\"sub-tile-count\">{sub.TileCount}</div>\n                </div>\n              ))}\n            </div>\n          )}\n        </div>\n      ))}\n    </div>\n  );\n}\n \nappsmith.onReady(() => {\n  ReactDOM.render(<App />, document.getElementById(\"root\"));\n});\n "
+  },
+  "version": 1,
+  "widgetId": "k886oekst5",
+  "widgetName": "cwdg_DashboardTiles"
+}

@@ -1,0 +1,232 @@
+{
+  "animateLoading": true,
+  "borderColor": "#e2e8f0",
+  "borderRadius": "0px",
+  "borderWidth": 1,
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "canFreezeColumn": false,
+  "columnOrder": [
+    "supplier",
+    "documentStatus",
+    "reviewedBy",
+    "reviewedOn",
+    "technicalEvaluationStatus"
+  ],
+  "columnUpdatedAt": 1789037222216,
+  "columnWidthMap": {
+    "compliance": 102,
+    "documentStatus": 193,
+    "reviewedBy": 160,
+    "reviewedOn": 150,
+    "supplier": 220,
+    "technicalEvaluationStatus": 220
+  },
+  "compactMode": "TALL",
+  "defaultPageSize": 8,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.supplier.computedValue"
+    },
+    {
+      "key": "primaryColumns.documentStatus.computedValue"
+    },
+    {
+      "key": "primaryColumns.documentStatus.cellBackground"
+    },
+    {
+      "key": "primaryColumns.documentStatus.textColor"
+    },
+    {
+      "key": "primaryColumns.reviewedBy.computedValue"
+    },
+    {
+      "key": "primaryColumns.reviewedOn.computedValue"
+    },
+    {
+      "key": "primaryColumns.technicalEvaluationStatus.computedValue"
+    },
+    {
+      "key": "primaryColumns.technicalEvaluationStatus.textColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "enableClientSideSearch": false,
+  "headerRowColor": "#f8fafc",
+  "headerTextColor": "#475569",
+  "horizontalAlignment": "LEFT",
+  "isLoading": false,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "te_k_sup_eval",
+  "leftColumn": 1,
+  "multiRowSelection": false,
+  "needsErrorInfo": false,
+  "onRowSelected": "{{ js_TechnicalEvaluationController.handleSupplierSelect(tbl_SupplierEvaluation.selectedRow.id) }}",
+  "parentColumnSpace": 14.15625,
+  "parentId": "7hordqy5y5",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "documentStatus": {
+      "alias": "documentStatus",
+      "allowCellWrapping": true,
+      "cellBackground": "{{tbl_SupplierEvaluation.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"documentStatus\"] === \"Compliant\" ? \"#e0f2fe\" : \"#fee2e2\"))}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"documentStatus\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "documentStatus",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DOCUMENT STATUS",
+      "originalId": "documentStatus",
+      "textColor": "{{tbl_SupplierEvaluation.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"documentStatus\"] === \"Compliant\" ? \"#0284c7\" : \"#dc2626\"))}}",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 160
+    },
+    "id": {
+      "alias": "id",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"id\"])) : \"\" })()}}",
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellVisible": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "ID",
+      "originalId": "id",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 60
+    },
+    "reviewedBy": {
+      "alias": "reviewedBy",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"reviewedBy\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "reviewedBy",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "REVIEWED BY",
+      "originalId": "reviewedBy",
+      "textColor": "#475569",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 160
+    },
+    "reviewedOn": {
+      "alias": "reviewedOn",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"reviewedOn\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "reviewedOn",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "REVIEWED ON",
+      "originalId": "reviewedOn",
+      "textColor": "#475569",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "supplier": {
+      "alias": "supplier",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"supplier\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "supplier",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "SUPPLIER",
+      "originalId": "supplier",
+      "textColor": "#0f172a",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 220
+    },
+    "technicalEvaluationStatus": {
+      "alias": "technicalEvaluationStatus",
+      "allowCellWrapping": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_SupplierEvaluation.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"technicalEvaluationStatus\"])) : \"\" })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "technicalEvaluationStatus",
+      "index": 5,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "TECHNICAL EVALUATION STATUS",
+      "originalId": "technicalEvaluationStatus",
+      "textColor": "{{tbl_SupplierEvaluation.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"technicalEvaluationStatus\"] === \"Qualified\" ? \"#16a34a\" : (currentRow[\"technicalEvaluationStatus\"] === \"Rejected\" ? \"#dc2626\" : \"#2563eb\")))}}",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 220
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "tableData": "{{ js_TechnicalEvaluationController.getSupplierTableData() }}",
+  "textSize": "0.875rem",
+  "topRow": 7,
+  "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "z9k3ecoqut",
+  "widgetName": "tbl_SupplierEvaluation"
+}

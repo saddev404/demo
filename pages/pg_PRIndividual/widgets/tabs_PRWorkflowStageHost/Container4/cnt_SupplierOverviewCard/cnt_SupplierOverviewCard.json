@@ -1,0 +1,37 @@
+{
+  "backgroundColor": "#ffffff",
+  "borderColor": "#e2e8f0",
+  "borderRadius": "0.5rem",
+  "borderWidth": "1",
+  "bottomRow": 83,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 570,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "parentId": "y9i02433f3",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "uta5uj5n7e",
+      "widgetName": "Canvas_SupplierOverview"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "originalBottomRow": 83,
+  "originalTopRow": 26,
+  "parentId": "xze5cpmeo4",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 26,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "y9i02433f3",
+  "widgetName": "cnt_SupplierOverviewCard"
+}

@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 103,
+  "bottomRowBeforeCollapse": 103,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.controlled_upload_failed === true || appsmith.store.controlled_invalid_document === true}}",
+  "key": "97ba8ea07e",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 103,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 99,
+  "needsErrorInfo": false,
+  "originalBottomRow": 103,
+  "originalTopRow": 99,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.5,
+  "parentId": "ecn1zud2kn",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "{{appsmith.store.controlled_upload_failed === true ? 'The document could not be uploaded. Please try again.' : appsmith.store.controlled_invalid_document === true ? 'The selected document could not be processed. Please upload a valid file.' : ''}}",
+  "textAlign": "CENTER",
+  "textColor": "#DC2626",
+  "topRow": 99,
+  "topRowBeforeCollapse": 99,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "rzg0vjvu3p",
+  "widgetName": "N9_ControlError"
+}

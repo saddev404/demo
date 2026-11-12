@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 9.5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.82rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "446fcd3f6e",
+  "leftColumn": 1.4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 6.2,
+  "mobileLeftColumn": 1.4,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 3.2,
+  "needsErrorInfo": false,
+  "originalBottomRow": 6.200000000000728,
+  "originalTopRow": 3.2,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0389404296875,
+  "parentId": "sv6rc9m4f4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "shouldTruncate": false,
+  "text": "{{ appsmith.store.nfaDraft?.prNo || '-' }}",
+  "textAlign": "LEFT",
+  "textColor": "#111827",
+  "topRow": 5.5,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "s5d838lmk8",
+  "widgetName": "NFA_REVIEW__SummaryPR"
+}

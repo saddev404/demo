@@ -1,0 +1,40 @@
+{
+  "bottomRow": 400,
+  "canOutsideClickClose": true,
+  "children": [
+    {
+      "bottomRow": 380,
+      "dynamicBindingPathList": [],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "parentId": "al0s4iugnq",
+      "renderMode": "CANVAS",
+      "rightColumn": 64,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "5h1n0jumkv",
+      "widgetName": "Canvas_mdl_EditVendorContact"
+    }
+  ],
+  "detachFromLayout": true,
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "height": 380,
+  "isLoading": false,
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 24,
+  "parentId": "0",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "shouldScrollContents": true,
+  "topRow": 20,
+  "type": "MODAL_WIDGET",
+  "version": 2,
+  "widgetId": "al0s4iugnq",
+  "widgetName": "mdl_EditVendorContact",
+  "width": 520
+}
